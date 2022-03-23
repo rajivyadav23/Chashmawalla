@@ -1,0 +1,276 @@
+//Compatibility with WCFM
+
+@import '../../../../assets/sass/frontend/config/variables';
+@import '../../../../assets/sass/frontend/mixins/breakpoints';
+@import '../../../../assets/sass/frontend/config/directional';
+
+#wcfm-main-contentainer {
+    input[type="text"].wcfm-text,
+    select {
+        color: $dark-text;
+        font-weight: 400;
+    }
+    input[type=checkbox]~label {
+        padding: 0;
+        &::before, &:after {
+            display: none;
+        }
+    }   
+    .onoffswitch-switch {
+        top: -2px;
+    }
+}
+
+#wcfmmp-store {
+    box-shadow: none;
+    #wcfm_store_header {
+        position: absolute;
+        background: rgba(34,34,34,0.8)!important;
+        width: 100%;
+        min-height: 160px;
+        bottom: 0;
+
+        .ratings-container {
+            flex-direction: column;
+        }
+        .ratings-text {
+            margin-top: 1rem;
+        }
+    }
+    .tab_area .tab_links {
+        margin-bottom: 1rem;
+    }
+    .logo-area {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 1.5rem;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    }
+    .personal-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(-60px);
+        margin-right: 3rem;
+
+        .star-rating {
+            margin-right: 0;
+        }
+    }
+    .header_left {
+        display: flex;
+        padding: 0;
+        padding-left: 3rem;
+        margin-left: 0;
+        float: none;
+    }
+    .address {
+        position: relative;
+        padding-top: 2rem;
+        padding-left: 0;
+        width: 100%!important;
+        top: auto;
+        left: auto;
+
+        &>:not(h1) {
+            opacity: 0.8;
+        }
+    }
+    div.store_info_parallal {
+        display: block;
+        padding-bottom: 0.5rem;
+        word-break: break-all;
+    }
+    .bd_icon_area {
+        position: relative;
+        display: block;
+        float: none;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        top: auto;
+        .bd_icon_box {
+            margin-right: 3rem;
+            float: none;
+        }
+    }
+    .social_area {
+        padding-bottom: 2rem;
+        min-height: auto;
+        min-width: 300px;
+        width: auto;
+        background-color: transparent!important;
+    }
+    .social_area ul li {
+        &:first-child {
+            margin-left: 0;
+        }
+        >a {
+            margin: 0;
+            border-radius: 2px;
+        }
+    }
+    .wcfmmp-store-info-area {
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .banner_img {
+        height: 460px!important;
+        max-height: 460px!important;
+    }
+    .ratings-container {
+        display: flex;
+        text-align: center;
+        .ratings-text {
+            display: block;
+            margin: 0;
+        }
+    }
+    .nav-thumbs {
+        margin-top: 1.5rem;
+    }
+    .body_area.row.gutter-lg {
+        padding-top: 3rem;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .left_sidebar, .right_side {
+        padding: 0 1.5rem 2rem;
+        background: transparent !important;
+        border: none;
+    }
+    .sidebar_heading {
+        margin-bottom: 2rem;
+        h4 {
+            text-transform: capitalize;
+        }
+    }
+    ul {
+        &.children {
+            padding-bottom: 0;
+        }
+        &.product-categories {
+            margin-bottom: 2.6rem;
+        }
+        li {
+            padding: 0 0 6px 0;
+            margin-bottom: 0;
+        }
+        &.product_list_widget li {
+            padding-left: 0;
+            img {
+                position: relative;
+                top: auto;
+                width: 100%;
+                height: auto;
+                object-position: unset;
+            }
+            a {
+                margin-bottom: 0;
+                overflow: visible;
+                font-weight: 500;
+                text-overflow: unset;
+            }
+            .ratings-text {
+                display: none;
+            }
+            .product-media {
+                margin-right: 1rem;
+            }
+            .woocommerce-loop-product__title, .woocommerce-product-rating {
+                margin-bottom: .6rem;
+            }
+        } 
+    }
+    del {
+        text-decoration: line-through;
+    } 
+    ins {
+        background: transparent;
+        color: #f05970;
+    }
+    .price {
+        color: $dark-text;
+    }
+}
+
+@media (min-width: 1025px) {
+    #wcfmmp-store {
+        .header_left {
+            flex: 1;
+        }
+        .header_area {
+            display: flex;
+        }
+        .bd_icon_area .bd_icon_box {
+            text-align: right;
+        }
+        .social_area>ul {
+            justify-content: flex-end;
+            padding-right: 3rem;
+        }
+    } 
+}
+
+@media (max-width: 1024px) {
+    #wcfmmp-store {
+        .header_right {
+            padding-left: 160px;
+            text-align: left;
+        }
+        .bd_icon_area, .social_area {
+            position: relative;
+            margin-top: 0;
+            width: 100%;
+        }
+        .bd_icon_area {
+            margin-bottom: 2rem;
+        }
+        .social_area {
+            right: auto;
+        }
+        .social_area>ul.social-icons {
+            justify-content: flex-start;
+            left: auto;
+        }
+    }
+}
+@include mq('sm', 'max') {
+    #wcfmmp-store {
+        .header_left {
+            flex-direction: column;
+            .address-info {
+                transform: translateY(-30px);
+                width: calc(100% - 3rem);
+                margin-top: -20px;
+            }
+            .address {
+                padding-top: 0;
+                margin-left: 0;
+            }
+        }
+        .header_right {
+            padding-left: 30px;
+            margin-top: -3rem;
+        }
+    } 
+}
+@include mq('xs', 'max') {
+    #wcfmmp-store {
+        .social_area>ul.social-icons {
+            justify-content: center;
+        }
+        .header_area .header_right {
+            padding-left: 1rem;
+            text-align: center;
+            background: transparent;
+        }
+    } 
+}

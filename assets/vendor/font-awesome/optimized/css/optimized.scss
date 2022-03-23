@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  src:  url('../webfonts/fa-optimized.eot?r5llh8');
+  src:  url('../webfonts/fa-optimized.eot?r5llh8#iefix') format('embedded-opentype'),
+    url('../webfonts/fa-optimized.ttf?r5llh8') format('truetype'),
+    url('../webfonts/fa-optimized.woff?r5llh8') format('woff'),
+    url('../webfonts/fa-optimized.svg?r5llh8#icomoon') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  src:  url('../webfonts/far-optimized.eot?r5llh8');
+  src:  url('../webfonts/far-optimized.eot?r5llh8#iefix') format('embedded-opentype'),
+    url('../webfonts/far-optimized.ttf?r5llh8') format('truetype'),
+    url('../webfonts/far-optimized.woff?r5llh8') format('woff'),
+    url('../webfonts/far-optimized.svg?r5llh8#icomoon') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+.fa,
+.far,
+.fas {
+  display:inline-block;
+  font-family: 'Font Awesome 5 Free' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-rendering:auto;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa, .fas {
+  font-weight:900;
+}
+.far {
+  font-weight:400;
+}
+
+.fa-share-square:before {
+  content: "\f14d";
+}
+.fa-share:before {
+  content: "\f064";
+}
+.fa-hand-peace:before {
+  content: "\f25b";
+}
+.fa-shapes:before {
+  content: "\f61f";
+}
+.fa-hands-helping:before {
+  content: "\f4c4";
+}
+.fa-hands:before {
+  content: "\f4c2";
+}
+.fa-envelope-open:before {
+  content: "\f2b6";
+}
+.fa-envelope:before {
+  content: "\f0e0";
+}
+.fa-comments:before {
+  content: "\f086";
+}
+.fa-bell-slash:before {
+  content: "\f1f6";
+}
+.fa-bell:before {
+  content: "\f0f3";
+}
+.fa-book:before {
+  content: "\f02d";
+}
+.fa-battery-full:before {
+  content: "\f240";
+}
+.fa-battery-empty:before {
+  content: "\f244";
+}
+.fa-arrow-circle-right:before {
+  content: "\f0a9";
+}
+.fa-arrow-circle-up:before {
+  content: "\f0aa";
+}
+.fa-arrow-circle-down:before {
+  content: "\f0ab";
+}
+.fa-arrow-circle-left:before {
+  content: "\f0a8";
+}
+.fa-ban:before {
+  content: "\f05e";
+}
+.fa-upload:before {
+  content: "\f093";
+}
+.fa-chevron-right:before {
+  content: "\f054";
+}
+.fa-chevron-up:before {
+  content: "\f077";
+}
+.fa-chevron-down:before {
+  content: "\f078";
+}
+.fa-chevron-left:before {
+  content: "\f053";
+}
+.fa-info-circle:before {
+  content: "\f05a";
+}
+.fa-check-circle:before {
+  content: "\f058";
+}
+.fa-check:before {
+  content: "\f00c";
+}
+.fa-star-half:before {
+  content: "\f089";
+}
+.fa-times:before {
+  content: "\f00d";
+}
+.fa-power-off:before {
+  content: "\f011";
+}
+.fa-pen-alt:before {
+  content: "\f305";
+}
+.fa-pen:before {
+  content: "\f304";
+}
+.fa-star:before {
+  content: "\f005";
+}
+.fa-plus:before {
+  content: "\f067";
+}
+.fa-info:before {
+  content: "\f129";
+}
+.fa-trash:before {
+  content: "\f1f8";
+}

@@ -1,0 +1,17 @@
+
+// Magnific-popup
+
+.mfp-close-btn-in {
+	.mfp-close {
+		position: absolute;
+		#{$right}: 1.5rem;
+		top: 1.5rem;
+		width: 3rem;
+		height: 3rem;
+		font-size: 1.8rem;
+
+		&:active {
+			top: 1.5rem;
+		}
+	}
+}

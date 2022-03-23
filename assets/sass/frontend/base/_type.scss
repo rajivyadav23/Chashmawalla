@@ -1,0 +1,181 @@
+/* Type */
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+
+.text-dark {
+  color: #333 !important;
+}
+
+.text-light {
+  color: #ccc !important;
+}
+
+.lead {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.875;
+  margin-bottom: 1.2rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+blockquote {
+  position: relative;
+  margin: 0 0 2rem;
+	color: #333333;
+	font-weight: 400;
+	font-size: 1.8rem;
+	line-height: 1.67;
+  border-left: 4px solid $primary-color;
+	background-color: #fafafa;
+	margin-top: 4.2rem;
+  margin-bottom: 4.2rem;
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+
+	&:before {
+		color: #ebebeb;
+		content: '\f10e';
+		font-weight: normal;
+		font-size: 3rem;
+		line-height: 1;
+		font-family: 'molla';
+		position: absolute;
+		#{$left}: 3rem;
+		top: 4rem;
+		margin-top: -1.5rem;
+  }
+
+  &,
+  &.wp-block-quote,
+  &.wp-block-quote,
+  &.wp-block-quote.is-large,
+  &.wp-block-quote.is-style-large {
+    padding: 7rem 3rem 4rem 3rem;
+    border-color: $primary-color;
+    margin-top: 4.2rem;
+    margin-bottom: 4.2rem;
+  }
+}
+
+ins {
+  text-decoration: none;
+}
+
+em {
+  font-size: 85%;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+code {
+  color: #e83e8c;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+p {
+  font-weight: 400;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-weight: 400;
+}
+
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+  font-weight: 400;
+}
+
+@include mq('md') {
+  h1, .h1 {
+    font-size: 5rem;
+  }
+
+  h2, .h2 {
+    font-size: 4rem;
+  }
+
+  h3, .h3 {
+    font-size: 3rem;
+  }
+
+  h4, .h4 {
+    font-size: 2.4rem;
+  }
+  blockquote,
+  blockquote.wp-block-quote,
+  blockquote.wp-block-quote.is-large,
+  blockquote.wp-block-quote.is-style-large {
+
+		padding: side-values(4rem 6rem 4rem 12rem);
+
+		&:before {
+			#{$left}: 4rem;
+			top: 50%;
+    }
+	}
+}
+
+table {
+  width: 100%;
+}
+
+select {
+  max-width: 100%;
+}
+
+[class*='notice-'] {
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 2px;
+  margin-bottom: 15px;
+
+  &.notice-error {
+    color:#dc3232;
+    background-color: rgba(220,50,50,0.2);
+  }
+  &.notice-success {
+    color:#82b440;
+    background-color: rgba(130,180,64,0.2);
+  }
+  &.notice-info {
+    color:#4bb0da;
+    background-color: rgba(75,176,218,0.2);
+  }
+
+  strong, p {
+    color: inherit;
+  }
+}

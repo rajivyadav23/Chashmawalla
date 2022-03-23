@@ -1,0 +1,157 @@
+/**
+ * 360 Degree Gallery
+ */
+.molla-product-degree-viewport {
+    .mfp-content & {
+        position: relative;
+        min-height: 50rem;
+        max-width: 83rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.molla-product-gallery-degree {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-height: 100%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    overflow: hidden;
+    cursor: ew-resize;
+    .molla-product-degree-images {
+        display: none;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        position: relative;
+        &:after {
+            content: '';
+            border-color: rgba(175,175,175,0.05) rgba(175,175,175,0.1) rgba(175,175,175,0.15);
+            border-radius: 50%;
+            border-style: solid;
+            border-width: 0px 2px 4px;
+            bottom: 60px;
+            height: 50%;
+            left: 50px;
+            position: absolute;
+            right: 50px;
+            z-index: 10;
+            transition-delay: 0.5s;
+        }
+
+        li {
+            height: 100%;
+            margin-bottom: 0;
+        }
+        img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: auto;
+            max-height: 500px;
+            max-width: 100%;
+            &.previous-image {
+                visibility: hidden;
+            }
+            &.current-image {
+                visibility: visible;
+            }
+        }
+    }
+    .molla-degree-progress-bar {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 12;
+        margin-top: 0 !important;
+
+        i {
+            position: absolute;
+            left: calc(50% - 17px);
+            top: calc(50% - 17px);
+            width: 34px;
+            height: 34px;
+            border: 2px solid transparent;
+            border-top-color: #333;
+            border-radius: 50%;
+            animation: mf-spin 0.75s infinite linear;
+        }
+    }
+    .nav_bar {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 15px;
+        font-family: 'molla';
+        z-index: 11;
+        padding: 0 1.5rem;
+        border-radius: 3rem;
+        background: rgba(255,255,255,0.5);
+        a {
+            margin: 0 1rem;
+            font-size: 0;
+            text-align: center;
+            color: #333;
+
+            &:hover {
+                color: #444;
+            }
+        }
+        .nav_bar_play:before {
+            content: '\f144';
+            font-family: 'Font Awesome 5 Free';
+            font-size: 4rem;
+        }
+        .nav_bar_stop:before {
+            content: '\f28b';
+            font-family: 'Font Awesome 5 Free';
+            font-size: 4rem;
+        }
+        .nav_bar_previous:before {
+            content: '\e903';
+            font-size: 3rem;
+        }
+        .nav_bar_next:before {
+            content: '\e900';
+            font-size: 3rem;
+        }
+    }
+}
+
+.open-product-degree-viewer i {
+    font-size: 2.1rem;
+}
+
+@keyframes mf-spin {
+	0% { transform: none; }
+	to { transform: rotate(360deg); }
+}
+
+@media (max-width: 869px) {
+    .molla-product-gallery-degree {
+        width: calc(100vw - 40px)!important;
+        max-height: 100vw;
+    }
+}
+@media (max-width: 767px) {
+    .molla-product-gallery-degree .molla-product-degree-images:after {
+        bottom: 20%;
+        height: 35%;
+        left: 5%;
+        right: 5%;
+    }
+}
+@media (max-height: 539px) {
+    .molla-product-gallery-degree {
+        height: calc(100vh - 40px)!important;
+        max-width: 166vh;
+    }
+}

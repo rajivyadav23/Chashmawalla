@@ -1,0 +1,167 @@
+/* Titles */
+.title {
+	font-size: 2.2rem;
+	letter-spacing: -.03em;
+}
+
+.heading {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 1.6rem;
+	word-break: break-word;
+
+	.heading-content {
+		.heading-title,
+		.heading-subtitle {
+			margin: 0;
+		}
+	}
+
+	.title {
+		margin-bottom: 0;
+	}
+
+	&.heading-center {
+		text-align: center;
+
+		.title {
+			margin-bottom: 1.5rem;
+		}
+
+		.title-lg {
+			margin-bottom: 2.4rem;
+		}
+	}
+
+	.toolbox {
+		flex: none;
+		width: auto;
+	}
+}
+
+
+@include mq('lg', 'max') {
+	.heading.heading-with-filter {
+		display: block;
+
+		>* + >* {
+			margin-top: 2rem;
+		}
+	}
+}
+
+.heading-border {
+	border-bottom: 1px solid #ebebeb;
+}
+
+.title-separator {
+	font-weight: 300;
+	color: #cccccc;
+
+	.text-white & {
+		color: #999999;
+	}
+}
+
+.title-desc {
+	color: #999;
+	font-weight: 300;
+	font-size: 1.4rem;
+	line-height: 1.5;
+	letter-spacing: -.01em;
+	margin-bottom: 0;
+}
+
+.heading-right {
+	margin-top: .5rem;
+}
+
+.heading-title a {
+	color: inherit;
+}
+
+.title-link {
+	font-weight: 500;
+	transition: .3s;
+}
+
+.title-link i {
+	font-size: 1em;
+}
+
+.title-link i:last-child {
+	margin-#{$left}: .5rem;
+}
+
+.heading-subtitle {
+	margin-bottom: 0;
+}
+
+.heading-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.t-decor-left,
+.t-decor-right,
+.t-decor-both {
+	display: flex;
+	align-items: center;
+	width: 100%;
+
+	&:before,
+	&:after {
+		content: '';
+		flex: 1;
+		height: 2px;
+		background-color: #f1f1f1;
+	}
+
+	&:before {
+		margin-#{$right}: 2.5rem;
+	}
+
+	&:after {
+		margin-#{$left}: 2.5rem;
+	}
+}
+
+.t-decor-left {
+	&:after {
+		display: none;
+	}
+}
+
+.t-decor-right {
+	&:before {
+		display: none;
+	}
+}
+
+
+
+@include mq('md') {
+	.title {
+		font-size: 2.4rem;
+	}
+
+	.title-lg {
+		font-size: 3rem;
+	}
+}
+
+@include mq('lg') {
+	.heading {
+		&.heading-flex {
+			align-items: center;
+			flex-direction: row;
+			text-align: #{$left};
+		}
+	}
+	
+	.heading-right {
+		margin-top: 0;
+		margin-#{$left}: auto;
+	}
+}

@@ -1,0 +1,5118 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Molla 1.3\n"
+"POT-Creation-Date: 2021-10-02 01:06-0700\n"
+"PO-Revision-Date: 2017-10-09 17:25+0800\n"
+"Last-Translator: molla <molla@example.com>\n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;"
+"__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: inc/plugins/tgm-plugin-activation\n"
+"X-Poedit-SearchPathExcluded-1: inc/plugins/molla-core\n"
+
+#: comments.php:14 comments.php:45 inc/admin/options/blog/options-blog-entry.php:221
+msgid "Comment"
+msgstr ""
+
+#: comments.php:14
+msgid "Comments"
+msgstr ""
+
+#: comments.php:41 inc/admin/options/woocommerce/options-product-type.php:123
+#: inc/admin/options/woocommerce/options-product-type.php:160
+#: inc/lib/pro/brand/product-brand.php:429 woocommerce/single-product-reviews.php:87
+msgid "Name"
+msgstr ""
+
+#: comments.php:42 inc/admin/options/options-share.php:45 woocommerce/share.php:73
+#: woocommerce/share.php:74 woocommerce/single-product-reviews.php:93
+msgid "Email"
+msgstr ""
+
+#: comments.php:43
+msgid "Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: comments.php:46
+msgid "POST COMMENT"
+msgstr ""
+
+#: dokan/store-header.php:14
+msgid "Store Open"
+msgstr ""
+
+#: dokan/store-header.php:15
+msgid "Store Closed"
+msgstr ""
+
+#: dokan/store-sidebar.php:28
+msgid "Store Product Category"
+msgstr ""
+
+#: dokan/store-sidebar.php:36
+msgid "Store Time"
+msgstr ""
+
+#: dokan/store-sidebar.php:40
+msgid "Contact Vendor"
+msgstr ""
+
+#: dokan/store.php:72
+msgid "No products were found of this vendor!"
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:15
+msgid "Your Name"
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:18
+msgid "you@example.com"
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:21
+msgid "Type your messsage..."
+msgstr ""
+
+#: dokan/widgets/store-contact-form.php:30
+msgid "Send Message"
+msgstr ""
+
+#: dokan/widgets/widget-content-product.php:73
+msgid "No products found"
+msgstr ""
+
+#: footer.php:11 inc/admin/options/footer/options-footer.php:15
+msgid "Footer"
+msgstr ""
+
+#: inc/admin/admin-init.php:67
+msgid "There is a problem contacting to the Molla API server. Please try again later."
+msgstr ""
+
+#: inc/admin/admin-init.php:85
+#, php-format
+msgid ""
+"%1$sPlease %3$s Molla theme to get access to pre-built demo websites and auto updates."
+"%2$s"
+msgstr ""
+
+#: inc/admin/admin-init.php:85 inc/admin/admin.php:237
+msgid "register"
+msgstr ""
+
+#: inc/admin/admin-init.php:86
+#, php-format
+msgid ""
+"%1$s%3$sImportant!%4$s One %5$s is valid for only %3$s1 website%4$s. Running multiple "
+"websites on a single license is a copyright violation.%2$s"
+msgstr ""
+
+#: inc/admin/admin-init.php:86
+msgid "standard license"
+msgstr ""
+
+#: inc/admin/admin-init.php:88
+msgid "Dismiss this notice."
+msgstr ""
+
+#: inc/admin/admin.php:40 inc/admin/panel/panel.php:16
+#: inc/admin/panel/views/changelog.php:22 inc/admin/panel/views/welcome.php:25
+msgid "Theme License"
+msgstr ""
+
+#: inc/admin/admin.php:41 inc/admin/panel/panel.php:17
+#: inc/admin/panel/views/changelog.php:23 inc/admin/panel/views/welcome.php:26
+msgid "Change Log"
+msgstr ""
+
+#: inc/admin/admin.php:42 inc/admin/panel/panel.php:18
+#: inc/admin/panel/views/changelog.php:24 inc/admin/panel/views/welcome.php:27
+msgid "Theme Options"
+msgstr ""
+
+#: inc/admin/admin.php:44 inc/admin/panel/views/changelog.php:25
+#: inc/admin/panel/views/welcome.php:28
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:117
+#: inc/admin/wizard/setup_wizard/views/header.php:2
+#: inc/admin/wizard/setup_wizard/views/header.php:6
+msgid "Setup Wizard"
+msgstr ""
+
+#: inc/admin/admin.php:45 inc/admin/panel/views/changelog.php:26
+#: inc/admin/panel/views/welcome.php:29
+#: inc/admin/wizard/speed_optimize_wizard/speed_optimize_wizard.php:93
+#: inc/admin/wizard/speed_optimize_wizard/views/header.php:2
+#: inc/admin/wizard/speed_optimize_wizard/views/header.php:6
+msgid "Speed Optimize Wizard"
+msgstr ""
+
+#: inc/admin/admin.php:47
+msgid "Export Molla Demo files"
+msgstr ""
+
+#: inc/admin/admin.php:237
+#, php-format
+msgid "Please %s Molla theme to get access to pre-built demo websites and auto updates."
+msgstr ""
+
+#: inc/admin/admin.php:244
+msgid "Purchase Code is not valid or could not connect to the API server!"
+msgstr ""
+
+#: inc/admin/admin.php:262
+msgid "View Details"
+msgstr ""
+
+#: inc/admin/options/advanced/options-advanced.php:15
+#: inc/admin/options/woocommerce/options-advanced.php:40
+msgid "Advanced"
+msgstr ""
+
+#: inc/admin/options/advanced/options-custom_image.php:29
+msgid "Custom Image Size"
+msgstr ""
+
+#: inc/admin/options/advanced/options-custom_image.php:39
+msgid "Register Custom Image Size (px)"
+msgstr ""
+
+#: inc/admin/options/advanced/options-custom_image.php:42
+msgid "Don't forget to regenerate previously uploaded images."
+msgstr ""
+
+#: inc/admin/options/advanced/options-error-404.php:29
+#: inc/functions/function-layout.php:128
+msgid "Error 404"
+msgstr ""
+
+#: inc/admin/options/advanced/options-error-404.php:39
+msgid "404 Page Block ID or Slug"
+msgstr ""
+
+#: inc/admin/options/advanced/options-error-404.php:41
+msgid "Please input block name using for 404 page."
+msgstr ""
+
+#: inc/admin/options/advanced/options-import_export.php:29
+msgid "Import & Export Options"
+msgstr ""
+
+#: inc/admin/options/advanced/options-import_export.php:39
+msgid "Import Theme Option"
+msgstr ""
+
+#: inc/admin/options/advanced/options-import_export.php:41
+msgid "Please input file path to import. Source file should be typed text."
+msgstr ""
+
+#: inc/admin/options/advanced/options-import_export.php:53
+#: inc/lib/pro/studio/blocks.php:65
+msgid "Import"
+msgstr ""
+
+#: inc/admin/options/advanced/options-import_export.php:62
+msgid "Export Theme Option"
+msgstr ""
+
+#: inc/admin/options/advanced/options-import_export.php:64
+msgid "Please input export file path."
+msgstr ""
+
+#: inc/admin/options/advanced/options-import_export.php:76
+msgid "Export"
+msgstr ""
+
+#: inc/admin/options/advanced/options-pagination.php:29
+#: inc/admin/options/woocommerce/options-shop.php:255
+msgid "Pagination"
+msgstr ""
+
+#: inc/admin/options/advanced/options-pagination.php:39
+msgid "Pagination Position"
+msgstr ""
+
+#: inc/admin/options/advanced/options-pagination.php:43
+#: inc/admin/options/blog/options-blog-entry.php:162
+#: inc/admin/options/blog/options-blog-entry.php:202
+#: inc/admin/options/header/molla-header-builder.php:345
+#: inc/admin/options/woocommerce/options-product-type.php:96
+msgid "Left"
+msgstr ""
+
+#: inc/admin/options/advanced/options-pagination.php:44
+#: inc/admin/options/blog/options-blog-entry.php:163
+#: inc/admin/options/blog/options-blog-entry.php:203
+#: inc/admin/options/woocommerce/options-product-type.php:97
+msgid "Center"
+msgstr ""
+
+#: inc/admin/options/advanced/options-pagination.php:45
+#: inc/admin/options/blog/options-blog-entry.php:164
+#: inc/admin/options/blog/options-blog-entry.php:204
+#: inc/admin/options/header/molla-header-builder.php:346
+#: inc/admin/options/woocommerce/options-product-type.php:98
+msgid "Right"
+msgstr ""
+
+#: inc/admin/options/advanced/options-pagination.php:55
+msgid "Show Disabled Paginate"
+msgstr ""
+
+#: inc/admin/options/advanced/options-performance.php:29
+msgid "Performance"
+msgstr ""
+
+#: inc/admin/options/advanced/options-performance.php:41
+msgid "Lazyload Image"
+msgstr ""
+
+#: inc/admin/options/advanced/options-performance.php:50
+msgid "Enable Image-LazyLoad"
+msgstr ""
+
+#: inc/admin/options/advanced/options-performance.php:52
+msgid "Images will be loaded at the time of appearing itself."
+msgstr ""
+
+#: inc/admin/options/advanced/options-performance.php:63
+msgid "Lazy-load Background"
+msgstr ""
+
+#: inc/admin/options/advanced/options-performance.php:65
+msgid "Choose color to display before images are loaded."
+msgstr ""
+
+#: inc/admin/options/advanced/options-performance.php:85
+msgid "Live Search"
+msgstr ""
+
+#: inc/admin/options/advanced/options-performance.php:94
+msgid "Enable Live Search"
+msgstr ""
+
+#: inc/admin/options/advanced/options-performance.php:96
+msgid "You will be able to browse search results by dropdown popup."
+msgstr ""
+
+#: inc/admin/options/advanced/options-performance.php:109
+msgid "Lazyload Menu"
+msgstr ""
+
+#: inc/admin/options/advanced/options-performance.php:118
+msgid "Enable Menu-Lazyload"
+msgstr ""
+
+#: inc/admin/options/advanced/options-performance.php:120
+msgid "Menus will be loaded after page loading is completed."
+msgstr ""
+
+#: inc/admin/options/advanced/options-reset.php:29
+msgid "Reset Options"
+msgstr ""
+
+#: inc/admin/options/advanced/options-reset.php:41
+msgid "Reset Theme Options"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:23
+msgid "Blog Archive"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:35
+#: inc/admin/options/blog/options-blog-single.php:35
+#: inc/admin/options/woocommerce/options-shop.php:33
+#: inc/admin/options/woocommerce/options-single-product.php:53
+msgid "Page Layout"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:44
+#: inc/admin/options/blog/options-blog-single.php:55
+#: inc/admin/options/woocommerce/options-single-product.php:73
+msgid "Page Layout Mode"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:59
+#: inc/admin/options/blog/options-blog-single.php:70
+#: inc/admin/options/options-layout.php:64 inc/admin/options/options-page-title.php:148
+#: inc/admin/options/woocommerce/options-shop.php:57
+#: inc/admin/options/woocommerce/options-single-product.php:110
+msgid "Page Width"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:82
+#: inc/admin/options/blog/options-blog-single.php:93
+#: inc/admin/options/options-layout.php:80
+#: inc/admin/options/woocommerce/options-shop.php:103
+#: inc/admin/options/woocommerce/options-single-product.php:133
+msgid "Sidebar Option"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:107
+#: inc/admin/options/blog/options-blog.php:15
+msgid "Blog"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:117
+#: inc/admin/options/footer/options-footer-bottom.php:134
+#: inc/admin/options/footer/options-footer-layout.php:22
+#: inc/admin/options/header/options-header-sticky.php:46
+#: inc/admin/options/options-layout.php:37
+#: inc/admin/options/woocommerce/options-shop.php:42
+#: inc/admin/options/woocommerce/options-shop.php:135
+msgid "Layout"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:132
+#: inc/admin/options/blog/options-blog-single.php:309
+#: inc/admin/options/footer/options-footer-main.php:106
+#: inc/admin/options/footer/options-footer-top.php:106
+#: inc/admin/options/woocommerce/options-single-product.php:343
+#: inc/admin/options/woocommerce/options-single-product.php:543
+#: inc/functions/hooks/template/functions.php:496
+msgid "Columns"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:147
+msgid "Show Category Filter"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:158
+msgid "Category Filter Position"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:182
+msgid "Post type"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:198
+#: inc/admin/options/woocommerce/options-product-type.php:92
+msgid "Alignment"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:214
+msgid "Visible Options"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:218
+msgid "Featured Image"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:219
+#: inc/admin/options/blog/options-blog-single.php:272
+#: inc/lib/pro/brand/product-brand.php:444
+msgid "Date"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:220
+msgid "Author"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:222
+#: inc/admin/options/blog/options-blog-style.php:119
+#: inc/admin/options/blog/options-blog-style.php:255
+#: inc/admin/options/woocommerce/options-product-type.php:124
+#: inc/admin/options/woocommerce/options-product-type.php:161
+#: inc/admin/options/woocommerce/options-product-type.php:847
+msgid "Category"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:223
+msgid "Content"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:224
+#: inc/admin/options/blog/options-blog-general.php:77
+#: inc/functions/hooks/woocommerce/functions.php:175
+msgid "Read More"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:234
+msgid "Featured Image Width (cols)"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:256
+msgid "Blog View More Type"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:260
+msgid "pagination"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:261
+#: inc/admin/options/woocommerce/options-shop.php:256
+msgid "Load More Button"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-entry.php:262
+#: inc/admin/options/woocommerce/options-shop.php:257
+msgid "Infinite Scroll"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-general.php:22
+#: inc/admin/options/header/options-header-general.php:21
+#: inc/admin/options/menu/options-menu-skin.php:75
+#: inc/admin/options/menu/options-menu-skin.php:368
+#: inc/admin/options/menu/options-menu-skin.php:662
+#: inc/admin/options/options-general.php:28
+msgid "General"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-general.php:34
+#: inc/admin/options/blog/options-blog-style.php:144
+msgid "Excerpt"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-general.php:43
+msgid "Excerpt By"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-general.php:47
+msgid "Word"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-general.php:48
+msgid "Character"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-general.php:59
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-general.php:86
+msgid "Read More Label"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-general.php:97
+msgid "Enable Read More Icon"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:23
+#: inc/admin/options/blog/options-blog-single.php:118
+#: inc/admin/options/blog/options-blog-style.php:196
+msgid "Single Post"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:44
+#: inc/admin/options/options-page-title.php:49
+#: inc/admin/options/woocommerce/options-single-product.php:62
+msgid "Show Page Header"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:127
+msgid "Enable featured image"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:139
+msgid "Enable meta"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:151
+msgid "Enable category"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:163
+msgid "Enable Tags"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:175
+msgid "Enable Share Icons"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:187
+msgid "Enable Blog Author Box"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:199
+msgid "Enable Prev/Next Navigation"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:211
+msgid "Enable Related Posts"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:223
+msgid "Featured Image Position"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:239
+msgid "Share Icons Position"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:243
+msgid "Not Sticky"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:244
+msgid "Sticky In Left"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:245
+msgid "Sticky In Right"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:258
+#: template-parts/posts/partials/post-related.php:39
+msgid "Related Posts"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:267
+msgid "Sort By"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:271
+msgid "Random"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:273
+msgid "ID"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:274
+msgid "Modified Date"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:275
+msgid "Comment Count"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:286
+msgid "Sort Order"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:290
+msgid "Desc"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:291
+msgid "Asc"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:325
+msgid "Padding ( px )"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:342
+msgid "Show nav"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:354
+msgid "Show dots"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-single.php:366
+msgid "Loop enable"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-style.php:23
+#: inc/admin/options/footer/options-footer-style.php:22
+#: inc/admin/options/style/options-style.php:15
+#: inc/admin/options/woocommerce/options-product-type.php:826
+msgid "Style"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-style.php:35
+msgid "Archive"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-style.php:44
+msgid "Enable Box Shadow on Hover"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-style.php:56
+msgid "Content Padding"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-style.php:58
+#: inc/admin/options/blog/options-blog-style.php:83
+#: inc/admin/options/blog/options-blog-style.php:108
+#: inc/admin/options/blog/options-blog-style.php:133
+#: inc/admin/options/blog/options-blog-style.php:158
+#: inc/admin/options/blog/options-blog-style.php:183
+#: inc/admin/options/blog/options-blog-style.php:219
+#: inc/admin/options/blog/options-blog-style.php:244
+#: inc/admin/options/blog/options-blog-style.php:269
+#: inc/admin/options/header/options-header-logo.php:81
+#: inc/admin/options/header/options-header-logo.php:101
+#: inc/admin/options/menu/options-menu-skin.php:209
+#: inc/admin/options/menu/options-menu-skin.php:223
+#: inc/admin/options/menu/options-menu-skin.php:275
+#: inc/admin/options/menu/options-menu-skin.php:289
+#: inc/admin/options/menu/options-menu-skin.php:341
+#: inc/admin/options/menu/options-menu-skin.php:355
+#: inc/admin/options/menu/options-menu-skin.php:503
+#: inc/admin/options/menu/options-menu-skin.php:517
+#: inc/admin/options/menu/options-menu-skin.php:569
+#: inc/admin/options/menu/options-menu-skin.php:583
+#: inc/admin/options/menu/options-menu-skin.php:635
+#: inc/admin/options/menu/options-menu-skin.php:649
+#: inc/admin/options/menu/options-menu-skin.php:797
+#: inc/admin/options/menu/options-menu-skin.php:811
+#: inc/admin/options/menu/options-menu-skin.php:863
+#: inc/admin/options/menu/options-menu-skin.php:877
+#: inc/admin/options/menu/options-menu-skin.php:929
+#: inc/admin/options/menu/options-menu-skin.php:943
+#: inc/admin/options/style/options-style-typography.php:305
+#: inc/admin/options/woocommerce/options-product-type.php:868
+#: inc/admin/options/woocommerce/options-product-type.php:907
+#: inc/admin/options/woocommerce/options-product-type.php:946
+#: inc/admin/options/woocommerce/options-product-type.php:1004
+msgid ""
+"Please remember following units px, rem etc. If you omit unit, it is set as 'px'."
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-style.php:69
+#: inc/admin/options/blog/options-blog-style.php:205
+msgid "Meta"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-style.php:81
+#: inc/admin/options/blog/options-blog-style.php:217
+msgid "Meta Margin"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-style.php:94
+#: inc/admin/options/blog/options-blog-style.php:230
+#: inc/admin/options/woocommerce/options-product-type.php:886
+msgid "Title"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-style.php:106
+#: inc/admin/options/blog/options-blog-style.php:242
+#: inc/admin/options/woocommerce/options-product-type.php:905
+msgid "Title Margin"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-style.php:131
+#: inc/admin/options/blog/options-blog-style.php:267
+#: inc/admin/options/woocommerce/options-product-type.php:866
+msgid "Category Margin"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-style.php:156
+msgid "Excerpt Margin"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-style.php:169
+msgid "View More"
+msgstr ""
+
+#: inc/admin/options/blog/options-blog-style.php:181
+msgid "View More Margin"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-bottom.php:22
+#: inc/admin/options/footer/options-footer-bottom.php:108
+msgid "Footer Bottom"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-bottom.php:33
+#: inc/admin/options/footer/options-footer-main.php:33
+#: inc/admin/options/footer/options-footer-top.php:33
+#: inc/admin/options/header/options-header-bottom.php:33
+#: inc/admin/options/header/options-header-main.php:33
+#: inc/admin/options/header/options-header-top.php:33
+msgid "Enable Divider"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-bottom.php:44
+#: inc/admin/options/footer/options-footer-main.php:44
+#: inc/admin/options/footer/options-footer-top.php:44
+#: inc/admin/options/header/options-header-bottom.php:59
+#: inc/admin/options/header/options-header-main.php:59
+#: inc/admin/options/header/options-header-top.php:59
+msgid "Divider Width"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-bottom.php:48
+#: inc/admin/options/footer/options-footer-main.php:48
+#: inc/admin/options/footer/options-footer-top.php:48
+#: inc/admin/options/header/options-header-bottom.php:63
+#: inc/admin/options/header/options-header-main.php:63
+#: inc/admin/options/header/options-header-top.php:63
+#: inc/admin/options/options-page-title.php:176
+msgid "Content Width"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-bottom.php:49
+#: inc/admin/options/footer/options-footer-main.php:49
+#: inc/admin/options/footer/options-footer-top.php:49
+#: inc/admin/options/header/options-header-bottom.php:64
+#: inc/admin/options/header/options-header-main.php:64
+#: inc/admin/options/header/options-header-top.php:64
+#: inc/admin/options/options-page-title.php:177
+msgid "Full Width"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-bottom.php:60
+#: inc/admin/options/footer/options-footer-main.php:60
+#: inc/admin/options/footer/options-footer-top.php:60
+msgid "Padding Top ( px )"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-bottom.php:77
+#: inc/admin/options/footer/options-footer-main.php:77
+#: inc/admin/options/footer/options-footer-top.php:77
+msgid "Padding Bottom ( px )"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-bottom.php:117
+msgid "Select Items"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-bottom.php:151
+msgid "Custom Html"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-bottom.php:152
+msgid "Add any HTML or Shortcode here..."
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-bottom.php:163
+msgid "Payment"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-layout.php:33
+#: inc/admin/options/header/options-header-general.php:32
+msgid "Width"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-layout.php:48
+msgid "Tooltip Label"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-layout.php:51
+msgid "Footer tooltip is shown when your page sections are set as scrollable section."
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-layout.php:63
+msgid "Scroll To Top"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-layout.php:72
+msgid "Icon"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-layout.php:75
+#: inc/admin/options/header/options-header-account.php:37
+#: inc/admin/options/header/options-header-shop_icons.php:203
+#: inc/admin/options/header/options-header-shop_icons.php:216
+#: inc/admin/options/header/options-header-shop_icons.php:229
+msgid "Please visit "
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-layout.php:75
+#: inc/admin/options/header/options-header-account.php:37
+#: inc/admin/options/header/options-header-shop_icons.php:203
+#: inc/admin/options/header/options-header-shop_icons.php:216
+#: inc/admin/options/header/options-header-shop_icons.php:229
+msgid "Molla Icon Store"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-layout.php:87
+msgid "Footer Block"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-layout.php:96
+msgid "Block Name"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-layout.php:98
+msgid "Please input block id or slug using for footer."
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-layout.php:99
+msgid "You should set this option to use block for footer."
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-main.php:22
+msgid "Footer Main"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-main.php:109
+#: inc/admin/options/footer/options-footer-top.php:109
+msgid "Input Type: 6+2+2+2<br>Sum of columns should be 12."
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-style.php:32
+#: inc/admin/options/header/options-header-bottom.php:44
+#: inc/admin/options/header/options-header-general.php:89
+#: inc/admin/options/header/options-header-main.php:44
+#: inc/admin/options/header/options-header-top.php:44
+#: inc/admin/options/menu/options-menu-skin.php:134
+#: inc/admin/options/menu/options-menu-skin.php:428
+#: inc/admin/options/menu/options-menu-skin.php:722
+#: inc/admin/options/options-page-title.php:188
+msgid "Divider Color"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-style.php:47
+msgid "Footer Background"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-style.php:61
+#: inc/admin/options/menu/options-menu-skin.php:180
+#: inc/admin/options/menu/options-menu-skin.php:246
+#: inc/admin/options/menu/options-menu-skin.php:312
+#: inc/admin/options/menu/options-menu-skin.php:474
+#: inc/admin/options/menu/options-menu-skin.php:540
+#: inc/admin/options/menu/options-menu-skin.php:606
+#: inc/admin/options/menu/options-menu-skin.php:768
+#: inc/admin/options/menu/options-menu-skin.php:834
+#: inc/admin/options/menu/options-menu-skin.php:900
+#: inc/admin/options/style/options-style-typography.php:29
+msgid "Typography"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-style.php:70
+#: inc/admin/options/style/options-style-typography.php:41
+msgid "Base"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-style.php:82
+#: inc/admin/options/style/options-style-typography.php:97
+msgid "Heading"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-style.php:94
+msgid "Paragraph & Link"
+msgstr ""
+
+#: inc/admin/options/footer/options-footer-top.php:22
+msgid "Footer Top"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:36
+#: inc/admin/options/header/options-header-logo.php:40
+msgid "Logo"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:37
+msgid "☰ Mobile Menu Icon"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:38
+#: inc/admin/options/menu/options-main-menu.php:22 inc/functions/function-setup.php:87
+msgid "Main Menu"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:39
+#: inc/admin/options/header/options-header-top-nav.php:22
+msgid "Responsive Group"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:40
+msgid "Custom Menu"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:41
+#: inc/admin/options/header/options-header-search.php:22
+msgid "Search Form"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:42
+msgid "Log in/out form"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:43
+msgid "Social Icons"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:44
+#: inc/admin/options/header/options-header-shop_icons.php:22
+#: inc/admin/options/header/options-header-shop_icons.php:32
+msgid "Shop Icons"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:45
+#: inc/functions/function-setup.php:91
+msgid "Currency Switcher"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:46
+#: inc/functions/function-setup.php:90
+msgid "Language Switcher"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:47
+msgid "Molla Block"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:48
+#: inc/admin/options/header/molla-header-builder.php:382
+msgid "HTML"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:49
+msgid "Row"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:50
+msgid " | "
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:55
+msgid "Header Top Left"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:56
+msgid "Header Top Center"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:57
+msgid "Header Top Right"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:58
+msgid "Header Main Left"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:59
+msgid "Header Main Center"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:60
+msgid "Header Main Right"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:61
+msgid "Header Bottom Left"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:62
+msgid "Header Bottom Center"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:63
+msgid "Header Bottom Right"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:64
+msgid "Mobile Header Top Left"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:65
+msgid "Mobile Header Top Center"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:66
+msgid "Mobile Header Top Right"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:67
+msgid "Mobile Header Main Left"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:68
+msgid "Mobile Header Main Center"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:69
+msgid "Mobile Header Main Right"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:70
+msgid "Mobile Header Bottom Left"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:71
+msgid "Mobile Header Bottom Center"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:72
+msgid "Mobile Header Bottom Right"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:95
+#: inc/admin/options/header/molla-header-builder.php:489
+msgid "Header Builder"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:107
+msgid "Presets"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:154
+msgid "Custom Headers"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:166
+msgid "Select Header Layout..."
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:176
+msgid "You can create your own header type base on presets."
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:188
+msgid "Create a new header layout"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:199
+msgid "Delete header layout"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:210
+msgid "Header Type Title"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:221
+msgid "Add Header Layout"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:230
+msgid "Additional CSS"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:247
+msgid "Select a Menu"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:265
+msgid "Enable Toggle Menu."
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:274
+msgid "Toggle Menu Title"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:283
+msgid "Link Url"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:292
+msgid "Menu Active Events"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:296
+msgid "Mouse Hover"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:297
+msgid "Mouse Toggle"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:298
+msgid "Mouse Toggle (active on homepage) "
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:309
+msgid "Show Icon"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:320
+#: inc/admin/options/header/options-header-account.php:35
+msgid "Icon Class"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:331
+msgid "Active Icon Class"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:342
+msgid "Icon Position"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:356
+msgid "Menu Skin"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:360
+#: inc/admin/options/menu/options-main-menu.php:38
+#: inc/admin/options/menu/options-menu-skin.php:60
+msgid "Skin 1"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:361
+#: inc/admin/options/menu/options-main-menu.php:39
+#: inc/admin/options/menu/options-menu-skin.php:61
+msgid "Skin 2"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:362
+#: inc/admin/options/menu/options-main-menu.php:40
+#: inc/admin/options/menu/options-menu-skin.php:62
+msgid "Skin 3"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:364
+msgid "Note: You should set menu skin options in style panel."
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:373
+msgid "Input block id or slug."
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:391
+msgid "Custom CSS Class"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:404
+msgid "Save"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:413
+msgid "Header Builder Elements"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:495
+msgid "Tutorial"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:496
+msgid "Clear All"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:497
+#: template-parts/header/elements/shop.php:78
+msgid "Close"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:502
+#: inc/admin/options/header/molla-header-builder.php:571
+msgid "Elements"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:502
+#: inc/admin/options/header/molla-header-builder.php:571
+msgid "Drag &amp; Drop"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:541
+#: inc/admin/options/header/molla-header-builder.php:610
+#: inc/admin/options/header/options-header-general.php:53
+#: inc/admin/options/header/options-header-sticky.php:164
+#: inc/admin/options/header/options-header-top.php:22
+msgid "Header Top"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:550
+#: inc/admin/options/header/molla-header-builder.php:619
+#: inc/admin/options/header/options-header-general.php:54
+#: inc/admin/options/header/options-header-main.php:22
+#: inc/admin/options/header/options-header-sticky.php:176
+msgid "Header Main"
+msgstr ""
+
+#: inc/admin/options/header/molla-header-builder.php:559
+#: inc/admin/options/header/molla-header-builder.php:628
+#: inc/admin/options/header/options-header-bottom.php:22
+#: inc/admin/options/header/options-header-general.php:55
+#: inc/admin/options/header/options-header-sticky.php:188
+msgid "Header Bottom"
+msgstr ""
+
+#: inc/admin/options/header/options-header-account.php:22
+msgid "Account"
+msgstr ""
+
+#: inc/admin/options/header/options-header-account.php:48
+msgid "Log In Label"
+msgstr ""
+
+#: inc/admin/options/header/options-header-account.php:60
+msgid "Register Label"
+msgstr ""
+
+#: inc/admin/options/header/options-header-account.php:72
+msgid "Log Out Label"
+msgstr ""
+
+#: inc/admin/options/header/options-header-account.php:84
+msgid "Show Register Label"
+msgstr ""
+
+#: inc/admin/options/header/options-header-account.php:96
+msgid "Enable Social Login"
+msgstr ""
+
+#: inc/admin/options/header/options-header-bottom.php:75
+#: inc/admin/options/header/options-header-main.php:75
+#: inc/admin/options/header/options-header-top.php:75
+msgid "Padding Top & Bottom ( px )"
+msgstr ""
+
+#: inc/admin/options/header/options-header-bottom.php:92
+#: inc/admin/options/header/options-header-general.php:116
+#: inc/admin/options/header/options-header-main.php:92
+#: inc/admin/options/header/options-header-top.php:92
+#: inc/admin/options/style/options-style-color.php:29
+#: inc/admin/options/woocommerce/options-product-type.php:314
+#: inc/admin/options/woocommerce/options-product-type.php:365
+#: inc/admin/options/woocommerce/options-product-type.php:416
+#: inc/admin/options/woocommerce/options-product-type.php:467
+#: inc/admin/options/woocommerce/options-product-type.php:518
+msgid "Color"
+msgstr ""
+
+#: inc/admin/options/header/options-header-general.php:47
+msgid "Select Side Header"
+msgstr ""
+
+#: inc/admin/options/header/options-header-general.php:50
+msgid "Side header is sticky in left."
+msgstr ""
+
+#: inc/admin/options/header/options-header-general.php:52
+msgid "No Side Header"
+msgstr ""
+
+#: inc/admin/options/header/options-header-general.php:66
+msgid "Side Menu Type"
+msgstr ""
+
+#: inc/admin/options/header/options-header-general.php:70
+#: inc/admin/options/woocommerce/options-product-category.php:56
+#: inc/admin/options/woocommerce/options-product-type.php:71
+#: inc/admin/options/woocommerce/options-single-product.php:186
+#: inc/functions/function-helper.php:206
+#: inc/functions/hooks/woocommerce/functions.php:542
+#: inc/lib/pro/image-swatch/admin-image-swatch-tab.php:76
+msgid "Default"
+msgstr ""
+
+#: inc/admin/options/header/options-header-general.php:71
+#: inc/admin/options/woocommerce/options-product-category.php:64
+msgid "Expand"
+msgstr ""
+
+#: inc/admin/options/header/options-header-general.php:104
+msgid "Position fixed header"
+msgstr ""
+
+#: inc/admin/options/header/options-header-logo.php:30
+msgid "Logo & Site Identity"
+msgstr ""
+
+#: inc/admin/options/header/options-header-logo.php:52
+msgid "Retina Logo"
+msgstr ""
+
+#: inc/admin/options/header/options-header-logo.php:67
+msgid "Normal"
+msgstr ""
+
+#: inc/admin/options/header/options-header-logo.php:68
+msgid "Sticky"
+msgstr ""
+
+#: inc/admin/options/header/options-header-logo.php:79
+#: inc/admin/options/header/options-header-logo.php:99
+msgid "Logo Spacing"
+msgstr ""
+
+#: inc/admin/options/header/options-header-logo.php:120
+#: inc/admin/options/header/options-header-logo.php:140
+msgid "Logo width ( px )"
+msgstr ""
+
+#: inc/admin/options/header/options-header-logo.php:121
+#: inc/admin/options/header/options-header-logo.php:141
+msgid "Leave it blank to make it have original width."
+msgstr ""
+
+#: inc/admin/options/header/options-header-logo.php:167
+#: inc/admin/options/header/options-header-logo.php:187
+msgid "Logo max width ( px )"
+msgstr ""
+
+#: inc/admin/options/header/options-header-logo.php:168
+#: inc/admin/options/header/options-header-logo.php:188
+msgid "Leave it blank to make it auto fit inside the logo container."
+msgstr ""
+
+#: inc/admin/options/header/options-header-search.php:32
+msgid "Search Box Types"
+msgstr ""
+
+#: inc/admin/options/header/options-header-search.php:36
+msgid "Static"
+msgstr ""
+
+#: inc/admin/options/header/options-header-search.php:37
+msgid "Toggle"
+msgstr ""
+
+#: inc/admin/options/header/options-header-search.php:48
+msgid "Search Content Type"
+msgstr ""
+
+#: inc/admin/options/header/options-header-search.php:52
+#: woocommerce/archive-product.php:71
+msgid "All"
+msgstr ""
+
+#: inc/admin/options/header/options-header-search.php:53
+msgid "Post"
+msgstr ""
+
+#: inc/admin/options/header/options-header-search.php:54 woocommerce/cart/cart.php:30
+#: woocommerce/cart/cart.php:50 woocommerce/wishlist-view.php:65
+msgid "Product"
+msgstr ""
+
+#: inc/admin/options/header/options-header-search.php:65
+msgid "Search By Categories"
+msgstr ""
+
+#: inc/admin/options/header/options-header-search.php:77
+msgid "Placeholder"
+msgstr ""
+
+#: inc/admin/options/header/options-header-search.php:89
+msgid "Border Color"
+msgstr ""
+
+#: inc/admin/options/header/options-header-search.php:102
+msgid "Border Width"
+msgstr ""
+
+#: inc/admin/options/header/options-header-search.php:104
+#: inc/admin/options/header/options-header-search.php:118
+#: inc/admin/options/header/options-header-shop_icons.php:54
+msgid "Please remember following units px, rem etc. If you omit unit, it is set as 'px'"
+msgstr ""
+
+#: inc/admin/options/header/options-header-search.php:115
+msgid "Border Radius"
+msgstr ""
+
+#: inc/admin/options/header/options-header-search.php:119
+msgid "Leave it black to set as default value 0px."
+msgstr ""
+
+#: inc/admin/options/header/options-header-search.php:130
+msgid "Button Type"
+msgstr ""
+
+#: inc/admin/options/header/options-header-search.php:146
+msgid "Place Button at First"
+msgstr ""
+
+#: inc/admin/options/header/options-header-shop_icons.php:33
+#: inc/admin/options/header/options-header-top-nav.php:33
+msgid "Check items to show."
+msgstr ""
+
+#: inc/admin/options/header/options-header-shop_icons.php:50
+#: inc/admin/options/woocommerce/options-single-product.php:366
+msgid "Spacing"
+msgstr ""
+
+#: inc/admin/options/header/options-header-shop_icons.php:53
+msgid "Leave it black to set as default value 3rem."
+msgstr ""
+
+#: inc/admin/options/header/options-header-shop_icons.php:67
+msgid "Show Divider"
+msgstr ""
+
+#: inc/admin/options/header/options-header-shop_icons.php:79
+msgid "Enable Off-Canvas Cart Type"
+msgstr ""
+
+#: inc/admin/options/header/options-header-shop_icons.php:89
+msgid "Open Mini-cart when"
+msgstr ""
+
+#: inc/admin/options/header/options-header-shop_icons.php:112
+msgid "Shop Icon Type"
+msgstr ""
+
+#: inc/admin/options/header/options-header-shop_icons.php:128
+msgid "Hide Shop Icon Label"
+msgstr ""
+
+#: inc/admin/options/header/options-header-shop_icons.php:140
+msgid "Label Type"
+msgstr ""
+
+#: inc/admin/options/header/options-header-shop_icons.php:163
+msgid "Account Label"
+msgstr ""
+
+#: inc/admin/options/header/options-header-shop_icons.php:175
+msgid "Wishlist Label"
+msgstr ""
+
+#: inc/admin/options/header/options-header-shop_icons.php:187
+msgid "Cart Label"
+msgstr ""
+
+#: inc/admin/options/header/options-header-shop_icons.php:199
+msgid "Account Icon"
+msgstr ""
+
+#: inc/admin/options/header/options-header-shop_icons.php:212
+msgid "Wishlist Icon"
+msgstr ""
+
+#: inc/admin/options/header/options-header-shop_icons.php:225
+msgid "Cart Icon"
+msgstr ""
+
+#: inc/admin/options/header/options-header-shop_icons.php:238
+msgid "Show Cart Totals"
+msgstr ""
+
+#: inc/admin/options/header/options-header-social_links.php:22
+msgid "Social Links"
+msgstr ""
+
+#: inc/admin/options/header/options-header-social_links.php:32
+msgid "Check Items to Show"
+msgstr ""
+
+#: inc/admin/options/header/options-header-social_links.php:38
+#: inc/admin/options/header/options-header-social_links.php:58
+#: inc/admin/options/options-share.php:42 woocommerce/share.php:49
+#: woocommerce/share.php:50
+msgid "Facebook"
+msgstr ""
+
+#: inc/admin/options/header/options-header-social_links.php:39
+#: inc/admin/options/header/options-header-social_links.php:70
+#: inc/admin/options/options-share.php:43
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/admin/options/header/options-header-social_links.php:40
+#: inc/admin/options/header/options-header-social_links.php:82
+#: inc/admin/options/options-share.php:44 woocommerce/share.php:57
+#: woocommerce/share.php:58
+msgid "Twitter"
+msgstr ""
+
+#: inc/admin/options/header/options-header-social_links.php:41
+#: inc/admin/options/header/options-header-social_links.php:94
+msgid "Instagram"
+msgstr ""
+
+#: inc/admin/options/header/options-header-social_links.php:42
+#: inc/admin/options/header/options-header-social_links.php:106
+msgid "Youtube"
+msgstr ""
+
+#: inc/admin/options/header/options-header-social_links.php:43
+#: inc/admin/options/header/options-header-social_links.php:118
+#: inc/admin/options/options-share.php:46 woocommerce/share.php:65
+#: woocommerce/share.php:66
+msgid "Pinterest"
+msgstr ""
+
+#: inc/admin/options/header/options-header-social_links.php:44
+#: inc/admin/options/header/options-header-social_links.php:130
+#: inc/admin/options/options-share.php:49
+msgid "Tumblr"
+msgstr ""
+
+#: inc/admin/options/header/options-header-social_links.php:45 woocommerce/share.php:84
+msgid "Whatsapp"
+msgstr ""
+
+#: inc/admin/options/header/options-header-social_links.php:142 woocommerce/share.php:83
+msgid "WhatsApp"
+msgstr ""
+
+#: inc/admin/options/header/options-header-social_links.php:153
+#: inc/admin/options/options-page-title.php:106 inc/admin/options/options-share.php:61
+#: inc/admin/options/woocommerce/options-product-type.php:224
+msgid "Type"
+msgstr ""
+
+#: inc/admin/options/header/options-header-social_links.php:171
+#: inc/admin/options/options-share.php:79
+msgid "Size"
+msgstr ""
+
+#: inc/admin/options/header/options-header-sticky.php:22
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/admin/options/header/options-header-sticky.php:32
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: inc/admin/options/header/options-header-sticky.php:55
+msgid "Top Padding ( px )"
+msgstr ""
+
+#: inc/admin/options/header/options-header-sticky.php:72
+msgid "Main Padding ( px )"
+msgstr ""
+
+#: inc/admin/options/header/options-header-sticky.php:89
+msgid "Bottom Padding ( px )"
+msgstr ""
+
+#: inc/admin/options/header/options-header-sticky.php:108
+msgid "Sticky header"
+msgstr ""
+
+#: inc/admin/options/header/options-header-sticky.php:117
+msgid "Header top - in sticky"
+msgstr ""
+
+#: inc/admin/options/header/options-header-sticky.php:129
+msgid "Header main - in sticky"
+msgstr ""
+
+#: inc/admin/options/header/options-header-sticky.php:141
+msgid "Header bottom - in sticky"
+msgstr ""
+
+#: inc/admin/options/header/options-header-sticky.php:155
+#: inc/admin/options/menu/options-main-menu.php:33
+#: inc/admin/options/menu/options-mobile-menu.php:39
+msgid "Skin"
+msgstr ""
+
+#: inc/admin/options/header/options-header-top-nav.php:32
+msgid "Visible Items"
+msgstr ""
+
+#: inc/admin/options/header/options-header-top-nav.php:36
+msgid ""
+"These items will be shown normally in desktop but in mobile will be one grouped items."
+msgstr ""
+
+#: inc/admin/options/header/options-header.php:15
+msgid "Header"
+msgstr ""
+
+#: inc/admin/options/menu/options-main-menu.php:35
+msgid "You can set menu skins in "
+msgstr ""
+
+#: inc/admin/options/menu/options-main-menu.php:35
+#: inc/admin/options/menu/options-menu-skin.php:45
+msgid "Menu Skins"
+msgstr ""
+
+#: inc/admin/options/menu/options-main-menu.php:35
+msgid " panel"
+msgstr ""
+
+#: inc/admin/options/menu/options-menu-skin.php:56
+msgid "Skins"
+msgstr ""
+
+#: inc/admin/options/menu/options-menu-skin.php:84
+#: inc/admin/options/menu/options-menu-skin.php:378
+#: inc/admin/options/menu/options-menu-skin.php:672
+msgid "Menu Background"
+msgstr ""
+
+#: inc/admin/options/menu/options-menu-skin.php:97
+#: inc/admin/options/menu/options-menu-skin.php:391
+#: inc/admin/options/menu/options-menu-skin.php:685
+msgid "Dropdown Background"
+msgstr ""
+
+#: inc/admin/options/menu/options-menu-skin.php:109
+#: inc/admin/options/menu/options-menu-skin.php:403
+#: inc/admin/options/menu/options-menu-skin.php:697
+msgid "Show arrow"
+msgstr ""
+
+#: inc/admin/options/menu/options-menu-skin.php:121
+#: inc/admin/options/menu/options-menu-skin.php:415
+#: inc/admin/options/menu/options-menu-skin.php:709
+msgid "Show Dividers"
+msgstr ""
+
+#: inc/admin/options/menu/options-menu-skin.php:150
+#: inc/admin/options/menu/options-menu-skin.php:444
+#: inc/admin/options/menu/options-menu-skin.php:738
+msgid "Effects"
+msgstr ""
+
+#: inc/admin/options/menu/options-menu-skin.php:154
+#: inc/admin/options/menu/options-menu-skin.php:448
+#: inc/admin/options/menu/options-menu-skin.php:742
+msgid "No Effect"
+msgstr ""
+
+#: inc/admin/options/menu/options-menu-skin.php:155
+#: inc/admin/options/menu/options-menu-skin.php:449
+#: inc/admin/options/menu/options-menu-skin.php:743
+msgid "Top Scale"
+msgstr ""
+
+#: inc/admin/options/menu/options-menu-skin.php:156
+#: inc/admin/options/menu/options-menu-skin.php:450
+#: inc/admin/options/menu/options-menu-skin.php:744
+msgid "Bottom Scale"
+msgstr ""
+
+#: inc/admin/options/menu/options-menu-skin.php:170
+#: inc/admin/options/menu/options-menu-skin.php:464
+msgid "Top Level menu item"
+msgstr ""
+
+#: inc/admin/options/menu/options-menu-skin.php:193
+#: inc/admin/options/menu/options-menu-skin.php:487
+#: inc/admin/options/menu/options-menu-skin.php:781
+msgid "Hover & Active Color"
+msgstr ""
+
+#: inc/admin/options/menu/options-menu-skin.php:206
+#: inc/admin/options/menu/options-menu-skin.php:272
+#: inc/admin/options/menu/options-menu-skin.php:338
+#: inc/admin/options/menu/options-menu-skin.php:500
+#: inc/admin/options/menu/options-menu-skin.php:566
+#: inc/admin/options/menu/options-menu-skin.php:632
+#: inc/admin/options/menu/options-menu-skin.php:794
+#: inc/admin/options/menu/options-menu-skin.php:860
+#: inc/admin/options/menu/options-menu-skin.php:926
+#: inc/admin/options/style/options-style-typography.php:231
+#: inc/admin/options/style/options-style-typography.php:267
+msgid "Margin"
+msgstr ""
+
+#: inc/admin/options/menu/options-menu-skin.php:220
+#: inc/admin/options/menu/options-menu-skin.php:286
+#: inc/admin/options/menu/options-menu-skin.php:352
+#: inc/admin/options/menu/options-menu-skin.php:514
+#: inc/admin/options/menu/options-menu-skin.php:580
+#: inc/admin/options/menu/options-menu-skin.php:646
+#: inc/admin/options/menu/options-menu-skin.php:808
+#: inc/admin/options/menu/options-menu-skin.php:874
+#: inc/admin/options/menu/options-menu-skin.php:940
+#: inc/admin/options/style/options-style-typography.php:303
+msgid "Padding"
+msgstr ""
+
+#: inc/admin/options/menu/options-menu-skin.php:236
+#: inc/admin/options/menu/options-menu-skin.php:530
+#: inc/admin/options/menu/options-menu-skin.php:824
+msgid "Megamenu Heading"
+msgstr ""
+
+#: inc/admin/options/menu/options-menu-skin.php:259
+#: inc/admin/options/menu/options-menu-skin.php:325
+#: inc/admin/options/menu/options-menu-skin.php:553
+#: inc/admin/options/menu/options-menu-skin.php:619
+#: inc/admin/options/menu/options-menu-skin.php:847
+#: inc/admin/options/menu/options-menu-skin.php:913
+msgid "Hover Color"
+msgstr ""
+
+#: inc/admin/options/menu/options-menu-skin.php:302
+#: inc/admin/options/menu/options-menu-skin.php:596
+#: inc/admin/options/menu/options-menu-skin.php:890
+msgid "Sub Menu Item"
+msgstr ""
+
+#: inc/admin/options/menu/options-menu-skin.php:758
+msgid "Top Level Menu Item"
+msgstr ""
+
+#: inc/admin/options/menu/options-menu.php:15
+msgid "Menus"
+msgstr ""
+
+#: inc/admin/options/menu/options-mobile-menu.php:28
+msgid "Mobile Menu"
+msgstr ""
+
+#: inc/admin/options/menu/options-mobile-menu.php:43
+#: inc/admin/options/woocommerce/options-product-type.php:78
+#: inc/functions/function-setup.php:60
+msgid "Light"
+msgstr ""
+
+#: inc/admin/options/menu/options-mobile-menu.php:44
+#: inc/admin/options/woocommerce/options-product-type.php:79
+#: inc/functions/function-setup.php:55
+msgid "Dark"
+msgstr ""
+
+#: inc/admin/options/menu/options-mobile-menu.php:56
+msgid "Select Menu"
+msgstr ""
+
+#: inc/admin/options/options-general.php:40
+msgid "Loading Overlay"
+msgstr ""
+
+#: inc/admin/options/options-general.php:49
+msgid "Enable Loading-Overlay"
+msgstr ""
+
+#: inc/admin/options/options-general.php:51
+msgid "Loading overlay control is shown until whole page is loaded."
+msgstr ""
+
+#: inc/admin/options/options-general.php:63
+msgid "Skeleton Screen"
+msgstr ""
+
+#: inc/admin/options/options-general.php:72
+msgid "Enable Skeleton Screens"
+msgstr ""
+
+#: inc/admin/options/options-general.php:74
+msgid "Skeleton screen is applied for sidebar and several post types."
+msgstr ""
+
+#: inc/admin/options/options-general.php:87
+msgid "Sidebar"
+msgstr ""
+
+#: inc/admin/options/options-general.php:96
+msgid "Sidebar ( % )"
+msgstr ""
+
+#: inc/admin/options/options-general.php:98
+msgid "Upper 1200px screen size, sidebar width is 20% to prevent large width."
+msgstr ""
+
+#: inc/admin/options/options-general.php:114
+msgid "Enable Sticky Sidebar"
+msgstr ""
+
+#: inc/admin/options/options-general.php:128
+msgid "Google Map API"
+msgstr ""
+
+#: inc/admin/options/options-general.php:137
+msgid "Google Map API Key"
+msgstr ""
+
+#: inc/admin/options/options-layout.php:47
+msgid "Layout Mode"
+msgstr ""
+
+#: inc/admin/options/options-layout.php:96
+msgid "Container Width ( px )"
+msgstr ""
+
+#: inc/admin/options/options-layout.php:99
+msgid "Leave it black to set as default value."
+msgstr ""
+
+#: inc/admin/options/options-layout.php:100
+msgid "Default width is 1188px."
+msgstr ""
+
+#: inc/admin/options/options-layout.php:110
+msgid "Grid Gutter Width ( px )"
+msgstr ""
+
+#: inc/admin/options/options-layout.php:111
+msgid "This is the space between column and column. If you leave it blank 0px is set."
+msgstr ""
+
+#: inc/admin/options/options-layout.php:123
+msgid "Content Background"
+msgstr ""
+
+#: inc/admin/options/options-layout.php:137
+msgid "Boxed / Framed"
+msgstr ""
+
+#: inc/admin/options/options-layout.php:147
+msgid "Site boxed/framed Width ( px )"
+msgstr ""
+
+#: inc/admin/options/options-layout.php:149
+msgid "Default width is 1500px."
+msgstr ""
+
+#: inc/admin/options/options-layout.php:161
+msgid "Frame Padding"
+msgstr ""
+
+#: inc/admin/options/options-layout.php:163
+msgid ""
+"Please remember following units px, rem etc. If you omit unit, it is set as 'px'."
+"<br>Default value is '30px'."
+msgstr ""
+
+#: inc/admin/options/options-layout.php:181
+msgid "Frame Background"
+msgstr ""
+
+#: inc/admin/options/options-page-title.php:28
+msgid "Page Title Bar"
+msgstr ""
+
+#: inc/admin/options/options-page-title.php:40
+msgid "Page Header"
+msgstr ""
+
+#: inc/admin/options/options-page-title.php:71
+msgid "Enable Parallax"
+msgstr ""
+
+#: inc/admin/options/options-page-title.php:82
+msgid "Parallax Speed"
+msgstr ""
+
+#: inc/admin/options/options-page-title.php:124
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/admin/options/options-page-title.php:133
+msgid "Show Breadcrumb"
+msgstr ""
+
+#: inc/admin/options/options-page-title.php:144
+msgid "Breadcrumb Width"
+msgstr ""
+
+#: inc/admin/options/options-page-title.php:149
+msgid "Container"
+msgstr ""
+
+#: inc/admin/options/options-page-title.php:150
+msgid "Container-Fluid"
+msgstr ""
+
+#: inc/admin/options/options-page-title.php:160
+msgid "Show Breadcrumb Divider"
+msgstr ""
+
+#: inc/admin/options/options-page-title.php:172
+msgid "Breadcrumb Divider Width"
+msgstr ""
+
+#: inc/admin/options/options-share.php:28 inc/functions/function-default.php:30
+msgid "Share"
+msgstr ""
+
+#: inc/admin/options/options-share.php:38
+msgid "Share Icons"
+msgstr ""
+
+#: inc/admin/options/options-share.php:47
+msgid "Google Plus"
+msgstr ""
+
+#: inc/admin/options/options-share.php:48
+msgid "VKontakte"
+msgstr ""
+
+#: inc/admin/options/options-share.php:50
+msgid "WhatsApp (Only for Mobile)"
+msgstr ""
+
+#: inc/admin/options/style/options-custom-css.php:29
+msgid "Additional CSS & Script"
+msgstr ""
+
+#: inc/admin/options/style/options-custom-css.php:40
+msgid "CSS code"
+msgstr ""
+
+#: inc/admin/options/style/options-custom-css.php:55
+msgid "JS code"
+msgstr ""
+
+#: inc/admin/options/style/options-style-color.php:39
+#: inc/admin/options/woocommerce/options-product-type.php:35
+msgid "Primary Color"
+msgstr ""
+
+#: inc/admin/options/style/options-style-color.php:51
+#: inc/admin/options/woocommerce/options-product-type.php:36
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/admin/options/style/options-style-color.php:63
+#: inc/admin/options/woocommerce/options-product-type.php:37
+msgid "Alert Color"
+msgstr ""
+
+#: inc/admin/options/style/options-style-color.php:75
+#: inc/admin/options/woocommerce/options-product-type.php:39
+msgid "Dark Color"
+msgstr ""
+
+#: inc/admin/options/style/options-style-color.php:87
+#: inc/admin/options/woocommerce/options-product-type.php:38
+msgid "Light Color"
+msgstr ""
+
+#: inc/admin/options/style/options-style-typography.php:64
+msgid "Base Mobile"
+msgstr ""
+
+#: inc/admin/options/style/options-style-typography.php:75
+msgid "This works in mobile device under 576px."
+msgstr ""
+
+#: inc/admin/options/style/options-style-typography.php:88
+msgid "heading"
+msgstr ""
+
+#: inc/admin/options/style/options-style-typography.php:101
+msgid "H1"
+msgstr ""
+
+#: inc/admin/options/style/options-style-typography.php:102
+msgid "H2"
+msgstr ""
+
+#: inc/admin/options/style/options-style-typography.php:103
+msgid "H3"
+msgstr ""
+
+#: inc/admin/options/style/options-style-typography.php:104
+msgid "H4"
+msgstr ""
+
+#: inc/admin/options/style/options-style-typography.php:105
+msgid "H5"
+msgstr ""
+
+#: inc/admin/options/style/options-style-typography.php:106
+msgid "H6"
+msgstr ""
+
+#: inc/admin/options/style/options-style-typography.php:233
+msgid ""
+"Please remember following units px, rem etc. If you omit unit, it is set as 'px'."
+"<br>Default bottom value is '1.4rem'."
+msgstr ""
+
+#: inc/admin/options/style/options-style-typography.php:246
+msgid "paragraph"
+msgstr ""
+
+#: inc/admin/options/style/options-style-typography.php:269
+msgid ""
+"Please remember following units px, rem etc. If you omit unit, it is set as 'px'."
+"<br>Default bottom value is '1.5rem'."
+msgstr ""
+
+#: inc/admin/options/style/options-style-typography.php:282
+msgid "anchor"
+msgstr ""
+
+#: inc/admin/options/style/options-style-typography.php:318
+msgid "placeholder"
+msgstr ""
+
+#: inc/admin/options/style/options-style-typography.php:341
+msgid "Select fonts to load more from Google."
+msgstr ""
+
+#: inc/admin/options/style/options-style-typography.php:342
+msgid "Custom Fonts"
+msgstr ""
+
+#: inc/admin/options/style/options-style-typography.php:351
+msgid "Font 1"
+msgstr ""
+
+#: inc/admin/options/style/options-style-typography.php:363
+msgid "Font 2"
+msgstr ""
+
+#: inc/admin/options/style/options-style-typography.php:375
+msgid "Font 3"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-account.php:29
+msgid "My Account"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-advanced.php:53
+#: inc/lib/pro/image-swatch/admin-image-swatch-tab.php:16
+msgid "Image Swatch"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-advanced.php:62
+msgid "Enable Product Image Swatch"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-advanced.php:63
+msgid ""
+"Product attributes ( type is set as 'Pick' ) are shown as images in single product "
+"and also visible in product archive while "
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-advanced.php:63
+msgid "Attribute Support Setting"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-advanced.php:63
+msgid " is enabled."
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-advanced.php:77
+#: inc/lib/pro/woo-pre-order/classes/class-molla-pre-order-admin.php:40
+#: inc/lib/pro/woo-pre-order/classes/class-molla-pre-order-admin.php:54
+msgid "Pre-Order"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-advanced.php:86
+msgid "Enable Pre-Order"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-advanced.php:89
+msgid "Pre ordered products are currently empty but cart available at the moment."
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-advanced.php:99
+msgid "Pre-Order Label"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-advanced.php:100
+msgid "This text will be shown on 'Add to Cart' button."
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-advanced.php:119
+msgid "Available Date Text"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-advanced.php:120
+#, php-format
+msgid "ex: Available date: %1$s (%2$s will be replaced with available date.)"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-advanced.php:139
+msgid "No Date Text"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-category.php:31
+#: inc/admin/options/woocommerce/options-product-category.php:43
+msgid "Product Category Type"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-category.php:52
+msgid "Category Type"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-category.php:57
+msgid "Float"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-category.php:58
+msgid "Block"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-category.php:59
+msgid "Action-popup"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-category.php:60
+msgid "Action-slide"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-category.php:61
+msgid "Back-clip"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-category.php:62
+msgid "Fade-up"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-category.php:63
+msgid "Fade-down"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-category.php:65
+msgid "Content-inner-link"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:40
+msgid "Custom"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:46
+#: inc/admin/options/woocommerce/options-product-type.php:58
+#: inc/admin/options/woocommerce/options-product-type.php:67
+msgid "Product Type"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:72
+msgid "Classic"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:73
+msgid "List"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:74
+msgid "Simple"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:75
+msgid "Popup 1"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:76
+msgid "Popup 2"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:77
+msgid "Slide Over"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:80
+msgid "Card"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:81
+msgid "Banner-Type"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:82
+msgid "Gallery-Type"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:115
+msgid "Showing Options"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:125
+msgid "Tag"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:126
+#: inc/admin/options/woocommerce/options-product-type.php:162
+#: inc/admin/options/woocommerce/options-product-type.php:925
+#: inc/lib/pro/brand/product-brand.php:439 woocommerce/cart/cart.php:32
+#: woocommerce/cart/cart.php:84 woocommerce/wishlist-view.php:77
+msgid "Price"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:127
+#: inc/admin/options/woocommerce/options-product-type.php:163
+msgid "Rating"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:128
+#: inc/admin/options/woocommerce/options-product-type.php:164
+msgid "Add To Cart"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:129
+#: inc/admin/options/woocommerce/options-product-type.php:165
+msgid "Quick View"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:130
+#: inc/admin/options/woocommerce/options-product-type.php:166
+msgid "Wishlist"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:131
+#: inc/admin/options/woocommerce/options-product-type.php:167
+msgid "Count Deal"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:132
+#: inc/admin/options/woocommerce/options-product-type.php:168
+#: woocommerce/cart/cart.php:33 woocommerce/cart/cart.php:90
+#: woocommerce/wishlist-view.php:88
+msgid "Quantity"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:133
+#: inc/admin/options/woocommerce/options-product-type.php:169
+msgid "Attribute Support"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:134
+#: inc/admin/options/woocommerce/options-product-type.php:170
+msgid "Short Description"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:144
+msgid "Enable Catalog Mode"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:145
+msgid ""
+"You can restrict catalog visible options for site visitors following bellow options. "
+"In case of this is checked, top option would works for only logged in users."
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:156
+msgid "Showing Options For Visitors"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:187
+msgid "Show \"Read More\" instead of \"Add to cart\""
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:188
+msgid ""
+"When \"Add to cart\" is disabled, \"Read More\" button will be displayed instead of "
+"it."
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:200
+msgid "Showing Attributes"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:215
+msgid "Label"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:228
+msgid "Square"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:229
+msgid "Circle"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:230
+msgid "Polygon"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:241
+msgid "Labels"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:243
+msgid ""
+"You can set global label options here e.g. in shop page. You should set product "
+"widget label options in page builder."
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:246
+#: inc/lib/pro/brand/product-brand.php:443
+msgid "Featured"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:247
+#: inc/walker/molla-nav-field.php:146 inc/walker/molla-nav-walker.php:210
+#: woocommerce/loop/sale-flash.php:100
+msgid "New"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:248
+#: woocommerce/loop/sale-flash.php:61
+msgid "Sale"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:249
+msgid "Hurry Up"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:250
+msgid "Out Stock"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:260
+msgid "New Product Period ( days )"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:271
+msgid "Sale Label Format"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:272
+#, php-format
+msgid "%s represents discount percent"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:283
+msgid "Stock Limit ( % )"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:285
+msgid ""
+"In archive & single page, you would see hurry up notification per product that stock "
+"is reached to limit. If product's 'Low stock threshold' is not set, this value will "
+"be limit."
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:301
+msgid "Featured Skin"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:333
+#: inc/admin/options/woocommerce/options-product-type.php:384
+#: inc/admin/options/woocommerce/options-product-type.php:435
+#: inc/admin/options/woocommerce/options-product-type.php:486
+#: inc/admin/options/woocommerce/options-product-type.php:537
+msgid "Background Color"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:352
+msgid "New Skin"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:403
+msgid "Sale Skin"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:454
+msgid "Out-Stock Skin"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:505
+msgid "Hurry Up Skin"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:558
+msgid "Extra"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:567
+msgid "Quick View Popup"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:582
+msgid "Show Product Hover Image"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:593
+msgid "Sale-Countdown Type"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:608
+msgid "Countdown Period Short Text"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:626
+msgid "Countdown Prefix"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:644
+msgid "Star Icon"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:649
+msgid "Theme"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:650
+msgid "Font Awesome"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:660
+msgid "Vertical Action Animation"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:664
+msgid "FadeIn"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:665
+msgid "FadeInLeft"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:666
+msgid "FadeInUp"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:676
+msgid "Quick View Position"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:679
+#: inc/admin/options/woocommerce/options-product-type.php:697
+msgid "If default is set, it's position is set according to individual product type."
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:694
+msgid "Wishslist Position"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:712
+msgid "Wishlist Type"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:727
+msgid "Out-of-Stock"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:742
+msgid "Disable Out-of-Stock Products"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:744
+msgid "There will be no mouse event over out of stock products."
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:754
+msgid "Hide Icon"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:765
+msgid "Hide Label"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:776
+msgid "Icon Position Top"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:777
+msgid "Place icon top of the label in product actions."
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:788
+msgid "Divider"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:791
+msgid "For product buttons split."
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:793
+msgid "None"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:794
+msgid "Solid"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:795
+msgid "Dotted"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:835
+msgid "Enable Custom Style"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:836
+msgid ""
+"Please enable this options to customize product category, title, and etc's style of "
+"each product type."
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:944
+msgid "Price Margin"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:964
+msgid "New Price"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:983
+msgid "Old Price"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-product-type.php:1002
+msgid "Ratings Margin"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-shop.php:80
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-shop.php:107
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-shop.php:108
+msgid "Toggle Sidebar"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-shop.php:126
+#: inc/admin/options/woocommerce/options-single-product.php:181
+msgid "Product Layout"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-shop.php:158
+msgid "Creative Layout Mode"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-shop.php:182
+msgid "Height(px)"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-shop.php:210
+msgid "Column"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-shop.php:211
+msgid "How many products should be shown per row?"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-shop.php:234
+msgid "Catalog Count per Page"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-shop.php:235
+msgid "How many products should be shown per page?"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-shop.php:251
+msgid "View More Type"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:41
+msgid "Single Product"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:87
+msgid "Header Width"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:156
+msgid "Footer Width"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:187
+msgid "Gallery"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:188
+msgid "Extended Info"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:189
+msgid "Sticky Info"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:190
+msgid "Boxed With Sidebar"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:191
+msgid "Fullwidth With Sidebar"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:192
+msgid "Masonry Sticky Info"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:193
+msgid "Custom Layout"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:201
+msgid "Single Product Type"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:213
+msgid "Product Image Layout"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:250
+msgid "Select Custom Layout"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:269
+msgid "Product Image Width"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:297
+msgid "Nav & Dot Position"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:301
+msgid "Inner"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:302
+msgid "Outer"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:303
+#: woocommerce/loop/sale-flash.php:55
+msgid "Top"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:320
+msgid "Nav Type"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:324
+msgid "Type 1"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:325
+msgid "Type 2"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:326
+msgid "Type 3"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:389
+msgid "Prevent Image-zoom in Mobile"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:400
+msgid "Show Sticky Add-to-cart"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:411
+msgid "Enable Center Mode"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:414
+msgid "Single product summary alignment."
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:437
+#: inc/admin/options/woocommerce/options-single-product.php:446
+msgid "Product Data"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:450
+msgid "Tab"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:451
+msgid "Accordion"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:461
+msgid "Global Tab Title"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:472
+msgid "Global Tab Block Name"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:485
+msgid "Product Sale Notification"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:494
+msgid "Time Limit for Sale Product (day)"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:507
+msgid "Related Products"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:516
+msgid "Show related products"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:527
+msgid "Layout Type"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-single-product.php:559
+msgid "Count"
+msgstr ""
+
+#: inc/admin/options/woocommerce/options-woocommerce.php:15
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/admin/panel/panel.php:16
+msgid "Theme license"
+msgstr ""
+
+#: inc/admin/panel/views/changelog.php:7 inc/admin/panel/views/changelog.php:11
+#: inc/admin/panel/views/welcome.php:10 inc/admin/panel/views/welcome.php:14
+msgid "Welcome to Molla"
+msgstr ""
+
+#: inc/admin/panel/views/changelog.php:12 inc/admin/panel/views/welcome.php:15
+msgid ""
+"Thank you for choosing Molla theme from ThemeForest. Please register your purchase "
+"and make sure that you have fulfilled all of the requirements."
+msgstr ""
+
+#: inc/admin/panel/views/changelog.php:16 inc/admin/panel/views/welcome.php:19
+#: inc/admin/wizard/setup_wizard/views/header.php:11
+#: inc/admin/wizard/speed_optimize_wizard/views/header.php:11
+msgid "version"
+msgstr ""
+
+#: inc/admin/panel/views/changelog.php:29 inc/admin/panel/views/welcome.php:32
+msgid "Export Demos"
+msgstr ""
+
+#: inc/admin/panel/views/mini-status.php:45
+#: inc/admin/wizard/setup_wizard/views/steps/status.php:46
+msgid "Uploads folder writable"
+msgstr ""
+
+#: inc/admin/panel/views/mini-status.php:48
+#: inc/admin/wizard/setup_wizard/views/steps/status.php:49
+msgid ""
+"Uploads folder must be writable. Please set write permission to your wp-content/"
+"uploads folder."
+msgstr ""
+
+#: inc/admin/panel/views/mini-status.php:59
+#: inc/admin/wizard/setup_wizard/views/steps/status.php:60
+msgid "WP File System"
+msgstr ""
+
+#: inc/admin/panel/views/mini-status.php:62
+#: inc/admin/wizard/setup_wizard/views/steps/status.php:63
+msgid ""
+"File System access is required for pre-built websites and plugins installation. "
+"Please contact your hosting provider."
+msgstr ""
+
+#: inc/admin/panel/views/mini-status.php:73
+#: inc/admin/wizard/setup_wizard/views/steps/status.php:75
+msgid "ZipArchive"
+msgstr ""
+
+#: inc/admin/panel/views/mini-status.php:76
+#: inc/admin/wizard/setup_wizard/views/steps/status.php:78
+msgid ""
+"ZipArchive is required for pre-built websites and plugins installation. Please "
+"contact your hosting provider."
+msgstr ""
+
+#: inc/admin/panel/views/mini-status.php:83
+#: inc/admin/wizard/setup_wizard/views/steps/status.php:86
+msgid "SUHOSIN Installed"
+msgstr ""
+
+#: inc/admin/panel/views/mini-status.php:85
+#: inc/admin/wizard/setup_wizard/views/steps/status.php:87
+msgid "Suhosin may need to be configured to increase its data submission limits."
+msgstr ""
+
+#: inc/admin/panel/views/mini-status.php:101
+#: inc/admin/wizard/setup_wizard/views/steps/status.php:103
+msgid "PHP Memory Limit"
+msgstr ""
+
+#: inc/admin/panel/views/mini-status.php:111
+#: inc/admin/wizard/setup_wizard/views/steps/status.php:113
+msgid ""
+"Minimum <strong>128 MB</strong> is required, <strong>256 MB</strong> is recommended."
+msgstr ""
+
+#: inc/admin/panel/views/mini-status.php:123
+#: inc/admin/wizard/setup_wizard/views/steps/status.php:125
+msgid "Current memory limit is OK, however <strong>256 MB</strong> is recommended."
+msgstr ""
+
+#: inc/admin/panel/views/mini-status.php:145
+#: inc/admin/wizard/setup_wizard/views/steps/status.php:148
+msgid "PHP max_execution_time"
+msgstr ""
+
+#: inc/admin/panel/views/mini-status.php:155
+#: inc/admin/wizard/setup_wizard/views/steps/status.php:158
+msgid "Minimum <strong>300</strong> is required, <strong>600</strong> is recommended."
+msgstr ""
+
+#: inc/admin/panel/views/mini-status.php:167
+#: inc/admin/wizard/setup_wizard/views/steps/status.php:170
+msgid "Current time limit is OK, however <strong>600</strong> is recommended."
+msgstr ""
+
+#: inc/admin/panel/views/mini-status.php:185
+#: inc/admin/wizard/setup_wizard/views/steps/status.php:189
+msgid "PHP max_input_vars"
+msgstr ""
+
+#: inc/admin/panel/views/mini-status.php:191
+#: inc/admin/wizard/setup_wizard/views/steps/status.php:195
+msgid "Minimum 2000 is required"
+msgstr ""
+
+#: inc/admin/panel/views/mini-status.php:194
+#: inc/admin/wizard/setup_wizard/views/steps/status.php:199
+msgid ""
+"Do not worry if you are unable to update your server configuration due to hosting "
+"limit, you can use \"Alternative Import\" method in Demo Content import page."
+msgstr ""
+
+#: inc/admin/panel/views/mini-status.php:200
+#: inc/admin/wizard/setup_wizard/views/steps/status.php:204
+#, php-format
+msgid ""
+"php.ini values are shown above. Real values may vary, please check your limits using "
+"<a target=\"_blank\" href=\"%s\">php_info()</a>"
+msgstr ""
+
+#: inc/admin/panel/views/welcome.php:43
+msgid "Congratulations! Your product is registered now."
+msgstr ""
+
+#: inc/admin/panel/views/welcome.php:45
+msgid ""
+"Molla is ready to be used. Please register your product to import Demo Contents, to "
+"install Premium Plugins and get automatic updates."
+msgstr ""
+
+#: inc/admin/panel/views/welcome.php:49
+msgid "Please enter your Purchase Code to complete registration."
+msgstr ""
+
+#: inc/admin/panel/views/welcome.php:76
+msgid "Purchase Code"
+msgstr ""
+
+#: inc/admin/panel/views/welcome.php:79
+#: inc/admin/wizard/setup_wizard/views/steps/updates.php:59
+msgid "Deactivate"
+msgstr ""
+
+#: inc/admin/panel/views/welcome.php:82
+msgid "Active"
+msgstr ""
+
+#: inc/admin/panel/views/welcome.php:91
+#: inc/admin/wizard/setup_wizard/views/steps/updates.php:40
+msgid "Where can I find my purchase code?"
+msgstr ""
+
+#: inc/admin/panel/views/welcome.php:94
+#: inc/admin/wizard/setup_wizard/views/steps/updates.php:43
+#, php-format
+msgid "Please go to %1$sThemeForest.net/downloads%2$s"
+msgstr ""
+
+#: inc/admin/panel/views/welcome.php:96
+#: inc/admin/wizard/setup_wizard/views/steps/updates.php:45
+#, php-format
+msgid "Click the %1$sDownload%2$s button in Molla row"
+msgstr ""
+
+#: inc/admin/panel/views/welcome.php:98
+#: inc/admin/wizard/setup_wizard/views/steps/updates.php:47
+#, php-format
+msgid "Select %1$sLicense Certificate & Purchase code%2$s"
+msgstr ""
+
+#: inc/admin/panel/views/welcome.php:100
+#: inc/admin/wizard/setup_wizard/views/steps/updates.php:49
+#, php-format
+msgid "Copy %1$sItem Purchase Code%2$s"
+msgstr ""
+
+#: inc/admin/panel/views/welcome.php:106
+#, php-format
+msgid ""
+"Before you get started, please be sure to always check out %1$sthis documentation"
+"%2$s. We outline all kinds of good information, and provide you with all the details "
+"you need to use Molla."
+msgstr ""
+
+#: inc/admin/panel/views/welcome.php:110
+#, php-format
+msgid ""
+"If you are unable to find your answer in our documentation, we encourage you to "
+"contact us through %1$ssupport page%2$s with your site CPanel (or FTP) and WordPress "
+"admin details. We are very happy to help you and you will get reply from us more "
+"faster than you expected."
+msgstr ""
+
+#: inc/admin/panel/views/welcome.php:115
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:315
+msgid "System Status"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:154
+#: inc/admin/wizard/speed_optimize_wizard/speed_optimize_wizard.php:340
+msgid "Welcome"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:162
+#: inc/admin/wizard/setup_wizard/views/steps/updates.php:54
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/plugins.php:27
+msgid "Activate"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:169 inc/walker/molla-nav-field.php:140
+msgid "Status"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:176
+#: inc/admin/wizard/setup_wizard/views/steps/customize.php:7
+msgid "Child Theme"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:184
+#: inc/admin/wizard/speed_optimize_wizard/speed_optimize_wizard.php:370
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/plugins.php:4
+msgid "Plugins"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:191
+msgid "Demo Content"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:198
+msgid "Support"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:205
+#: inc/admin/wizard/speed_optimize_wizard/speed_optimize_wizard.php:378
+msgid "Ready!"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:316
+msgid "Check your current server performance."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:319
+#: inc/admin/wizard/setup_wizard/views/steps/customize.php:38
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:164
+#: inc/admin/wizard/setup_wizard/views/steps/plugins.php:72
+#: inc/admin/wizard/setup_wizard/views/steps/support.php:104
+#: inc/admin/wizard/setup_wizard/views/steps/updates.php:10
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/plugins.php:57
+msgid "Continue"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:431
+msgid "Directory permission required for /wp-content/themes."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:451
+#, php-format
+msgid ""
+"Child Theme %1$s created and activated!<br />Folder is located in wp-content/themes/"
+"%2$s"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:508
+#: inc/admin/wizard/speed_optimize_wizard/speed_optimize_wizard.php:252
+msgid "No Slug Found"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:528
+#: inc/admin/wizard/speed_optimize_wizard/speed_optimize_wizard.php:272
+msgid "Activating Plugin"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:543
+#: inc/admin/wizard/speed_optimize_wizard/speed_optimize_wizard.php:287
+msgid "Updating Plugin"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:558
+#: inc/admin/wizard/speed_optimize_wizard/speed_optimize_wizard.php:302
+msgid "Installing Plugin"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:572
+#: inc/admin/wizard/speed_optimize_wizard/speed_optimize_wizard.php:316
+#: inc/admin/wizard/speed_optimize_wizard/speed_optimize_wizard.php:853
+msgid "Success"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:612
+msgid "Remote API error."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:687
+msgid "Successfully reset menus!"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:714
+msgid "Successfully reset widgets!"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:754
+#: inc/plugins/importer/molla-wordpress-importer.php:235
+msgid "Importing posts"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:845
+#: inc/plugins/importer/molla-wordpress-importer.php:229
+msgid "Imported posts"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:929
+msgid "Successfully imported widgets!"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:952
+msgid "Successfully imported theme options!"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:954
+msgid ""
+"Successfully imported theme options! Please compile default css files by publishing "
+"options in customize panel."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:1164 inc/lib/pro/studio/blocks.php:44
+#: wcfm/store/widgets/wcfmmp-view-store-taxonomy.php:25
+msgid "Show All"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:1165
+msgid "Fashion"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:1166
+msgid "Furniture"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:1167
+msgid "Electronics"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:1168
+msgid "Sports"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:1169
+msgid "Medical"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:1170
+msgid "Food"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:1171
+msgid "Market"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:1172
+msgid "Other"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/setup_wizard.php:1173
+msgid "RTL"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/header.php:7
+msgid "Molla setup wizard will help you quickly build new website."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/customize.php:4
+msgid "Setup Molla Child Theme"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/customize.php:4
+msgid "(Optional)"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/customize.php:7
+#, php-format
+msgid ""
+"If you are going to make changes to the theme source code please use a %1$s rather "
+"than modifying the main theme HTML/CSS/PHP code. %2$s This allows the parent theme to "
+"receive updates without overwriting your source code changes. Use the form below to "
+"create and activate the Child Theme."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/customize.php:23
+msgid "Child Theme Title:"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/customize.php:27
+msgid ""
+"If you're not sure what a Child Theme is just click the \"Skip this step\" button."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/customize.php:30
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:163
+#: inc/admin/wizard/setup_wizard/views/steps/updates.php:53
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/lazyload.php:25
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/minify.php:19
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/widgets.php:98
+msgid "Skip this step"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/customize.php:31
+msgid "Create and Use Child Theme"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:4
+msgid "Demo Content Installation"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:5
+msgid "In this step you can upload your logo and select a demo from the list."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:6
+msgid "Upload Your Logo:"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:34
+msgid "Upload Logo"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:35
+msgid "You can upload and customize this in Theme Options later."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:41
+msgid "Select Demo:"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:72
+msgid "Details"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:78
+msgid "Import theme options"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:80
+msgid "Reset menus"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:81
+msgid "Reset widgets"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:82
+msgid "Import dummy content"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:83
+msgid "Import widgets"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:84
+msgid "Override existing contents"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:86
+msgid "Do you want to install demo? It can also take a minute to complete."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:87
+msgid "Standard Import"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:89
+msgid ""
+"Your server performance does not satisfy Molla demo importer engine's requirement. We "
+"recommend you to use alternative method to perform demo import without any issues but "
+"it may take much time than standard import."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:91
+msgid ""
+"If you have any issues with standard import, please use Alternative mode. But it may "
+"take much time than standard import."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:93
+msgid "Alternative Mode"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:96
+msgid "Activate Theme"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:98
+msgid "Live Preview"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:102
+msgid "Filter By:"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:146
+#, php-format
+msgid "Please go to %1$sPlugins step%2$s and install required plugins."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:155
+msgid ""
+"Installing a demo provides pages, posts, menus, images, theme options, widgets and "
+"more."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:156
+msgid "IMPORTANT: "
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:156
+msgid ""
+"The included plugins need to be installed and activated before you install a demo."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/demo.php:158
+#, php-format
+msgid ""
+"Please check the %1$sStatus%2$s step to ensure your server meets all requirements for "
+"a successful import. Settings that need attention will be listed in red."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/plugins.php:4
+msgid "Default Plugins"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/plugins.php:11
+msgid "This will install the default plugins which is used in Molla"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/plugins.php:11
+msgid "Please check the plugins to install:"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/plugins.php:26
+msgid "Load more"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/plugins.php:40
+msgid "Installation"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/plugins.php:42
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/plugins.php:25
+msgid "Update"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/plugins.php:44
+msgid "Activation"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/plugins.php:49
+#, php-format
+msgid "%s required"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/plugins.php:52
+#, php-format
+msgid "%s recommended for certain demos"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/plugins.php:67
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/plugins.php:52
+msgid "Good news! All plugins are already installed and up to date. Please continue."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/ready.php:7
+msgid "Your Website is Ready!"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/ready.php:9
+msgid ""
+"Congratulations! The theme has been activated and your website is ready. Please go to "
+"your WordPress dashboard to make changes and modify the content for your needs."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/ready.php:13
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/ready.php:13
+msgid "More Resources"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/ready.php:15
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/ready.php:15
+msgid "Molla Documentation"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/ready.php:16
+msgid "Learn how to use WooCommerce"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/ready.php:17
+msgid "Learn how to use WordPress"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/ready.php:18
+msgid "Leave an Item Rating"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/ready.php:24
+#, php-format
+msgid ""
+"Please come back and leave a <a href=\"%s\" target=\"_blank\">5-star rating</a> if "
+"you are happy with this theme. Thanks!"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/ready.php:38
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/ready.php:37
+msgid "View your new website!"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/support.php:4
+msgid "Help and Support"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/support.php:5
+msgid ""
+"This theme comes with 6 months item support from purchase date (with the option to "
+"extend this period). This license allows you to use this theme on a single website. "
+"Please purchase an additional license to use this theme on another website."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/support.php:13
+msgid "Item Support <strong class=\"success\">DOES</strong> Include:"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/support.php:25
+msgid "Availability of the author to answer questions"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/support.php:26
+msgid "Answering technical questions about item features"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/support.php:27
+msgid "Assistance with reported bugs and issues"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/support.php:28
+msgid "Help with bundled 3rd party plugins"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/support.php:37
+msgid "Item Support <strong class=\"error\">DOES NOT</strong> Include:"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/support.php:52
+#, php-format
+msgid "Customization services (this is available through <a href=\"%s\">%s</a>)"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/support.php:69
+#, php-format
+msgid "Installation services (this is available through <a href=\"%s\">%s</a>)"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/support.php:82
+msgid ""
+"Help and Support for non-bundled 3rd party plugins (i.e. plugins you install yourself "
+"later on)"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/support.php:92
+#, php-format
+msgid ""
+"More details about item support can be found in the ThemeForest <a href=\"%s\" target="
+"\"_blank\">Item Support Policy</a>."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/updates.php:4
+msgid "Activate Molla Theme"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/updates.php:7
+msgid "You are using Envato Hosted."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/updates.php:13
+msgid ""
+"Enter Your Purchase Code to activate Molla theme. If you don’t have the purchase code "
+"right now you can skip this step."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/updates.php:27
+msgid "Purchase code not updated. We will keep the existing one."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/updates.php:30
+#, php-format
+msgid ""
+"Your %1$spurchase code is valid%2$s. Thank you! Enjoy Molla Theme and automatic "
+"updates."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/updates.php:38
+#: inc/admin/wizard/setup_wizard/views/steps/updates.php:58
+msgid "Purchase code"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/updates.php:59
+msgid "Next Step"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/welcome.php:8
+#: inc/admin/wizard/setup_wizard/views/steps/welcome.php:19
+#, php-format
+msgid "Welcome to the setup wizard for %s."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/welcome.php:9
+msgid "It looks like you already have setup Molla."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/welcome.php:12
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/welcome.php:13
+msgid "Exit to Molla Panel"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/welcome.php:13
+msgid "Run Setup Wizard Again"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/welcome.php:21
+#, php-format
+msgid ""
+"Thank you for choosing the %s theme. This quick setup wizard will help you configure "
+"your new website. This wizard will install the required WordPress plugins, demo "
+"content, logo, etc."
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/welcome.php:22
+msgid "No time right now?"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/welcome.php:22
+msgid ""
+" If you don't want to go through the wizard, you can skip and return to the WordPress "
+"dashboard. Come back anytime if you change your mind!"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/welcome.php:24
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/welcome.php:24
+msgid "Not right now"
+msgstr ""
+
+#: inc/admin/wizard/setup_wizard/views/steps/welcome.php:25
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/welcome.php:25
+msgid "Let's Go"
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/speed_optimize_wizard.php:348
+msgid "Widgets"
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/speed_optimize_wizard.php:355
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/lazyload.php:4
+msgid "Lazyload"
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/speed_optimize_wizard.php:362
+msgid "Minify"
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/speed_optimize_wizard.php:742
+msgid "No Page Found"
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/header.php:7
+msgid ""
+"Molla speed optimize wizard will help you configure proper website with optimum css & "
+"js."
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/lazyload.php:6
+msgid "This will help you make your site faster by lazyloading images and contents."
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/lazyload.php:11
+msgid "All image resources will be lazyloaded so that page's loading speed gets faster."
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/lazyload.php:12
+msgid "Use with caution! Disable this option if you have any compability problems."
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/lazyload.php:17
+msgid ""
+"Instead of real content, skeleton is used to enhance speed of page loading and make "
+"it more beautiful."
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/lazyload.php:22
+#, php-format
+msgid ""
+"Using %1$sWeb Font Loader%2$s, you can enhance page loading speed by about 4 percent "
+"in %3$sGoogle PageSpeed Insights%4$s for both mobile and desktop."
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/lazyload.php:26
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/minify.php:20
+msgid "Save & Continue"
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/minify.php:4
+msgid "Other Minify"
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/minify.php:6
+msgid "This will help you to set up general optimization settings."
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/minify.php:11
+msgid ""
+"This will minify all css files which Molla theme generates such as page css, theme "
+"option css, global css and etc. Also if you check this option, it uses minified "
+"javascript files."
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/minify.php:16
+msgid "Unused font icons will be removed from font icon library as well as its CSS."
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/plugins.php:11
+msgid "This will install the plugins which can acclerate your site."
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/plugins.php:12
+msgid ""
+"You should disable below plugins while in development. Changes may not be applied "
+"because of them."
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/plugins.php:23
+msgid "Install"
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/plugins.php:46
+msgid "How to enable leverage browser  caching."
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/plugins.php:47
+msgid ""
+"Page loading duration can be significantly improved by asking visitors to save and "
+"reuse the files included in your website."
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/ready.php:7
+msgid "Your Website is now optimized much better than before!"
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/ready.php:9
+msgid ""
+"Congratulations! The Site is now much faster, better and full optimized. Please visit "
+"your new site to notice how its performance changed."
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/ready.php:16
+msgid "Leave a Rating"
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/ready.php:22
+#, php-format
+msgid ""
+"Please leave a <a href=\"%s\" target=\"_blank\">5-star rating</a> if you are "
+"satisfied with this theme. Thanks!"
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/welcome.php:8
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/welcome.php:19
+#, php-format
+msgid "Welcome to the speed optimize wizard for %s."
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/welcome.php:9
+msgid "It looks like you have already optimized your site."
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/welcome.php:12
+msgid "Run Speed Optimize Wizard Again"
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/welcome.php:21
+msgid ""
+"This Speed Optimize Wizard is introduced to optimize all resources that are "
+"unnecessary for your site. Every step has enough description about how it works. Some "
+"options may produce some conflicts if your site is still in development progress, so "
+"we advise you to enable all options once site development is completed."
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/welcome.php:22
+msgid "No time right now? "
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/welcome.php:22
+msgid ""
+"If you don't want to go through the wizard, you can skip and return to the WordPress "
+"dashboard. Come back anytime you want!"
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/widgets.php:4
+msgid "Optimize Widgets"
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/widgets.php:6
+msgid ""
+"This will help you to optimize elementor widget css files by removing unused widgets' "
+"style"
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/widgets.php:7
+msgid ""
+"Each page shows its unused widgets. You can remove all resources related to checked "
+"widgets. This will reduce 30% ~ 50% of CSS."
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/widgets.php:8
+msgid "Please check unused widgets to remove."
+msgstr ""
+
+#: inc/admin/wizard/speed_optimize_wizard/views/steps/widgets.php:99
+msgid "Compile & Continue"
+msgstr ""
+
+#: inc/classes/molla_cat_list_walker.php:71
+#, php-format
+msgid "Feed for all posts filed under %s"
+msgstr ""
+
+#: inc/customizer/customizer-nav.php:5
+msgid "Navigator"
+msgstr ""
+
+#: inc/functions/function-default.php:25
+msgid "Style / Additional CSS & Script"
+msgstr ""
+
+#: inc/functions/function-default.php:26
+msgid "Header / Header Builder"
+msgstr ""
+
+#: inc/functions/function-default.php:27
+msgid "Menu / Menu Skins"
+msgstr ""
+
+#: inc/functions/function-default.php:28
+msgid "Woocommerce / Product Type"
+msgstr ""
+
+#: inc/functions/function-default.php:29
+msgid "Woocommerce / Single Product Type"
+msgstr ""
+
+#: inc/functions/function-default.php:31
+msgid "Woocommerce / Advanced"
+msgstr ""
+
+#: inc/functions/function-default.php:32
+msgid "Advanced / Performance"
+msgstr ""
+
+#: inc/functions/function-default.php:576
+#, php-format
+msgid "Copyright &copy; %1$s. All Rights Reserved."
+msgstr ""
+
+#: inc/functions/function-default.php:576
+msgid "Y"
+msgstr ""
+
+#: inc/functions/function-default.php:898
+#: inc/lib/pro/woo-pre-order/classes/class-molla-pre-order-view.php:41
+#: inc/lib/pro/woo-pre-order/classes/class-molla-pre-order-view.php:72
+msgid "Pre-Order Now"
+msgstr ""
+
+#: inc/functions/function-default.php:899
+#: inc/lib/pro/woo-pre-order/classes/class-molla-pre-order-myaccount.php:150
+#: inc/lib/pro/woo-pre-order/classes/class-molla-pre-order-view.php:140
+#, php-format
+msgid "Available Date: %s"
+msgstr ""
+
+#: inc/functions/function-helper.php:60
+#: inc/functions/hooks/woocommerce/functions.php:1219
+msgid "Prev"
+msgstr ""
+
+#: inc/functions/function-helper.php:61
+#: inc/functions/hooks/woocommerce/functions.php:1218
+msgid "Next"
+msgstr ""
+
+#: inc/functions/function-helper.php:96
+msgid "Header 1"
+msgstr ""
+
+#: inc/functions/function-helper.php:111
+msgid "Header 2"
+msgstr ""
+
+#: inc/functions/function-helper.php:122
+msgid "Header 3"
+msgstr ""
+
+#: inc/functions/function-helper.php:131
+msgid "Header 4"
+msgstr ""
+
+#: inc/functions/function-helper.php:145
+msgid "Header 5"
+msgstr ""
+
+#: inc/functions/function-helper.php:155
+msgid "Header 6"
+msgstr ""
+
+#: inc/functions/function-helper.php:167
+msgid "Header 7"
+msgstr ""
+
+#: inc/functions/function-layout.php:39
+msgid "Pingback:"
+msgstr ""
+
+#: inc/functions/function-layout.php:39
+msgid "(Edit)"
+msgstr ""
+
+#: inc/functions/function-layout.php:51
+msgid "Reply"
+msgstr ""
+
+#: inc/functions/function-layout.php:61
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/functions/function-layout.php:66
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/functions/function-layout.php:97
+msgid "Quick view"
+msgstr ""
+
+#: inc/functions/function-layout.php:129
+msgid "We are sorry, the page you've requested is not available."
+msgstr ""
+
+#: inc/functions/function-layout.php:132
+msgid "BACK TO HOMPEAGE"
+msgstr ""
+
+#: inc/functions/function-setup.php:40
+msgid "Primary"
+msgstr ""
+
+#: inc/functions/function-setup.php:45
+msgid "Secondary"
+msgstr ""
+
+#: inc/functions/function-setup.php:50
+msgid "Alert"
+msgstr ""
+
+#: inc/functions/function-setup.php:88
+msgid "Secondary Menu"
+msgstr ""
+
+#: inc/functions/function-setup.php:89
+msgid "Top Navigation"
+msgstr ""
+
+#: inc/functions/function-widget.php:11
+msgid "Main Sidebar"
+msgstr ""
+
+#: inc/functions/function-widget.php:24
+msgid "Footer Top Widget"
+msgstr ""
+
+#: inc/functions/function-widget.php:38
+msgid "Footer Main Widget"
+msgstr ""
+
+#: inc/functions/function-widget.php:50
+msgid "Footer Bottom Widget"
+msgstr ""
+
+#: inc/functions/function-widget.php:61
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/functions/function-widget.php:72
+msgid "Shop Top Sidebar"
+msgstr ""
+
+#: inc/functions/function-widget.php:83
+msgid "Product Sidebar"
+msgstr ""
+
+#: inc/functions/hooks/ajax/functions.php:192 inc/functions/hooks/ajax/functions.php:205
+msgid "Error:"
+msgstr ""
+
+#: inc/functions/hooks/ajax/functions.php:208
+msgid "Username is required."
+msgstr ""
+
+#: inc/functions/hooks/ajax/functions.php:238
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: inc/functions/hooks/ajax/functions.php:248
+msgid "Wrong username or password."
+msgstr ""
+
+#: inc/functions/hooks/ajax/functions.php:311
+msgid "Register successful, redirecting..."
+msgstr ""
+
+#: inc/functions/hooks/ajax/functions.php:321
+msgid "Register failed."
+msgstr ""
+
+#: inc/functions/hooks/ajax/functions.php:523
+msgid "Please select a rating"
+msgstr ""
+
+#: inc/functions/hooks/ajax/functions.php:568
+msgid ""
+"Sorry, no products matched your selection. Please choose a different combination."
+msgstr ""
+
+#: inc/functions/hooks/ajax/functions.php:569
+msgid "Please select some product options before adding this product to your cart."
+msgstr ""
+
+#: inc/functions/hooks/ajax/functions.php:570
+msgid "Sorry, this product is unavailable. Please choose a different combination."
+msgstr ""
+
+#: inc/functions/hooks/template/functions.php:720
+msgid "Out Of Stock"
+msgstr ""
+
+#: inc/functions/hooks/template/functions.php:865
+msgid "Send"
+msgstr ""
+
+#: inc/functions/hooks/template/functions.php:892
+msgid "Sorry, but nothing matched your terms. Please try again."
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:267
+msgid "Sold:"
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:281 woocommerce/loop/loop-end.php:90
+msgid "MORE PRODUCTS"
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:294
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:303
+#, php-format
+msgid "%s Review"
+msgid_plural "%s Reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions/hooks/woocommerce/functions.php:324
+msgid "No"
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:456
+msgid "Shop Now"
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:528
+msgid "Sort by:"
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:543
+msgid "Popularity"
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:544
+msgid "Average Rating"
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:545
+msgid "Newness"
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:546
+msgid "Price: Low to High"
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:547
+msgid "Price: High to Low"
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:1013
+msgid "Hurry Up! "
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:1015
+msgid "Offer end in"
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:1037
+msgid "Qty"
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:1049
+msgid "Select a "
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:1075
+msgid "size guide"
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:1173
+msgid "Product Information"
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:1183
+msgid "Information"
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:1193
+#: woocommerce/single-product-reviews.php:37
+msgid "Reviews"
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:1269
+msgid "In stock"
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:1274
+#, php-format
+msgid "Hurry! Only <strong>%s</strong> left in stock"
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:1278
+#, php-format
+msgid "<strong>%s</strong> in stock"
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:1282
+msgid "(can be backordered)"
+msgstr ""
+
+#: inc/functions/hooks/woocommerce/functions.php:1356
+msgid "Estimate for Your Country"
+msgstr ""
+
+#: inc/functions/hooks/yith/functions.php:98 inc/lib/pro/studio/blocks.php:56
+#: woocommerce/archive-product.php:70
+msgid "Filters"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:48
+msgid "Product brands"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:49
+msgid "Brand"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:50 inc/lib/pro/brand/product-brand.php:441
+msgid "Brands"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:51
+msgid "Search brands"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:52
+msgid "All brands"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:53
+msgid "Edit brand"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:54
+msgid "Update brand"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:55
+msgid "Add New brand"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:56
+msgid "New brand Name"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:57
+msgid "Popular brands"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:58
+msgid "View brand"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:59
+msgid "Parent brand"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:60
+msgid "Parent brand:"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:61
+msgid "Separate brands with commas"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:62
+msgid "Add or remove brands"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:63
+msgid "Choose from the most used brands"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:64
+msgid "No brands found"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:68 inc/lib/pro/brand/product-brand.php:153
+msgctxt "slug"
+msgid "product-brand"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:112 inc/lib/pro/brand/product-brand.php:119
+msgid "Product brand"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:132
+msgid "Product brand base"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:208 inc/lib/pro/brand/product-brand.php:304
+#: inc/lib/pro/brand/product-brand.php:408
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:214 inc/lib/pro/brand/product-brand.php:311
+#: inc/lib/pro/image-swatch/admin-image-swatch-tab.php:113
+msgid "Upload/Add image"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:215 inc/lib/pro/brand/product-brand.php:312
+#: inc/lib/pro/image-swatch/admin-image-swatch-tab.php:114
+msgid "Remove image"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:239 inc/lib/pro/brand/product-brand.php:336
+msgid "Choose an image"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:241 inc/lib/pro/brand/product-brand.php:338
+msgid "Use image"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:383 inc/lib/pro/brand/product-brand.php:428
+#: inc/lib/pro/image-swatch/admin-image-swatch-tab.php:77
+#: inc/lib/pro/image-swatch/admin-image-swatch-tab.php:86
+#: inc/lib/pro/product-data-addons/product-data-addons-admin.php:42
+#: inc/lib/pro/product-data-addons/product-data-addons-admin.php:74
+msgid "Image"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:432
+msgid "SKU"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:436
+msgid "Stock"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:440
+msgid "Categories"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:442
+msgid "Tags"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:491
+msgid "Use these settings to disable custom types of content on your site"
+msgstr ""
+
+#: inc/lib/pro/brand/product-brand.php:504
+msgid "Disable Brand for this site."
+msgstr ""
+
+#: inc/lib/pro/image-swatch/admin-image-swatch-tab.php:46
+#, php-format
+msgid ""
+"Before you can add image swatch you need to add some %1$slist%2$s variation "
+"attributes on the %1$sAttributes%2$s tab."
+msgstr ""
+
+#: inc/lib/pro/image-swatch/admin-image-swatch-tab.php:47
+msgid "Learn more"
+msgstr ""
+
+#: inc/lib/pro/image-swatch/admin-image-swatch-tab.php:53
+msgid ""
+"This will replace product image with following uploaded image when attribute button "
+"is clicked."
+msgstr ""
+
+#: inc/lib/pro/image-swatch/admin-image-swatch-tab.php:83
+msgid "Attribute"
+msgstr ""
+
+#: inc/lib/pro/image-swatch/admin-image-swatch-tab.php:111
+msgid "Thumbnail Preview"
+msgstr ""
+
+#: inc/lib/pro/product-data-addons/product-data-addons-admin.php:26
+msgid "Molla Extra Options"
+msgstr ""
+
+#: inc/lib/pro/product-data-addons/product-data-addons-admin.php:41
+#: inc/lib/pro/product-data-addons/product-data-addons-admin.php:73
+msgid "Text"
+msgstr ""
+
+#: inc/lib/pro/product-data-addons/product-data-addons-admin.php:46
+#: inc/lib/pro/product-data-addons/product-data-addons-admin.php:78
+msgid "Color:"
+msgstr ""
+
+#: inc/lib/pro/product-data-addons/product-data-addons-admin.php:48
+#: inc/lib/pro/product-data-addons/product-data-addons-admin.php:80
+msgid "Bg Color:"
+msgstr ""
+
+#: inc/lib/pro/product-data-addons/product-data-addons-admin.php:56
+#: inc/lib/pro/product-data-addons/product-data-addons-admin.php:88
+#: woocommerce/wishlist-view.php:253
+msgid "Remove"
+msgstr ""
+
+#: inc/lib/pro/product-data-addons/product-data-addons-admin.php:60
+msgid "Custom Labels"
+msgstr ""
+
+#: inc/lib/pro/product-data-addons/product-data-addons-admin.php:61
+msgid "Add a Label"
+msgstr ""
+
+#: inc/lib/pro/product-data-addons/product-data-addons-admin.php:62
+msgid ""
+"Add custom labels for this product. Custom labels will be shown just after theme "
+"supported labels."
+msgstr ""
+
+#: inc/lib/pro/product-data-addons/product-data-addons-admin.php:100
+msgid "Save options"
+msgstr ""
+
+#: inc/lib/pro/studio/blocks.php:16
+msgid "Molla Studio"
+msgstr ""
+
+#: inc/lib/pro/studio/blocks.php:17
+msgid "Quickly get a project started with any of our examples:"
+msgstr ""
+
+#: inc/lib/pro/studio/blocks.php:19
+msgid "Latest"
+msgstr ""
+
+#: inc/lib/pro/studio/blocks.php:37
+msgid "Filter by Demos"
+msgstr ""
+
+#: inc/lib/pro/studio/blocks.php:55
+#: inc/plugins/importer/molla-wordpress-importer.php:480
+#: inc/plugins/importer/wordpress-importer.php:373
+#: woocommerce/single-product-reviews.php:79
+msgid "Submit"
+msgstr ""
+
+#: inc/lib/pro/studio/blocks.php:63
+msgid "Preview"
+msgstr ""
+
+#: inc/lib/pro/studio/studio.php:107
+msgid "Security issue found! Please try again later."
+msgstr ""
+
+#: inc/lib/pro/studio/studio.php:338 inc/lib/pro/studio/studio.php:359
+msgid "Could not connect to the API Server! Please try again later."
+msgstr ""
+
+#: inc/lib/pro/woo-pre-order/classes/class-molla-pre-order-admin.php:41
+msgid "Check this option to set this product to the \"Pre-Order\" status."
+msgstr ""
+
+#: inc/lib/pro/woo-pre-order/classes/class-molla-pre-order-admin.php:55
+msgid "Check this option to set this variation to the \"Pre-Order\" status."
+msgstr ""
+
+#: inc/lib/pro/woo-pre-order/classes/class-molla-pre-order-admin.php:73
+msgid "Pre-Order Available Date"
+msgstr ""
+
+#: inc/lib/pro/woo-pre-order/classes/class-molla-pre-order-admin.php:124
+#: inc/lib/pro/woo-pre-order/classes/class-molla-pre-order-myaccount.php:39
+msgid "Pre-Orders"
+msgstr ""
+
+#: inc/lib/pro/woo-pre-order/classes/class-molla-pre-order-myaccount.php:29
+msgid "Has Pre-Order Item"
+msgstr ""
+
+#: inc/lib/pro/woo-pre-order/classes/class-molla-pre-order-myaccount.php:53
+msgid "Product Name"
+msgstr ""
+
+#: inc/lib/pro/woo-pre-order/classes/class-molla-pre-order-myaccount.php:54
+msgid "Subtotal"
+msgstr ""
+
+#: inc/lib/pro/woo-pre-order/classes/class-molla-pre-order-myaccount.php:55
+msgid "Order"
+msgstr ""
+
+#: inc/lib/pro/woo-pre-order/classes/class-molla-pre-order-myaccount.php:108
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: inc/lib/pro/woo-pre-order/classes/class-molla-pre-order-view.php:56
+#: inc/lib/pro/woo-pre-order/classes/class-molla-pre-order-view.php:129
+msgid "Pre-Ordered"
+msgstr ""
+
+#: inc/lib/pro/woo-pre-order/classes/class-molla-pre-order-view.php:103
+#, php-format
+msgid "Item %s is Pre-Ordered"
+msgstr ""
+
+#: inc/plugins/compatibility/wcfm/wcfm.php:108
+msgid "Sold By:"
+msgstr ""
+
+#: inc/plugins/importer/importer-api.php:168
+msgid "The package could not be downloaded."
+msgstr ""
+
+#: inc/plugins/importer/importer-api.php:189
+msgid "WordPress filesystem error."
+msgstr ""
+
+#: inc/plugins/importer/importer-api.php:194
+msgid "The package could not be unziped."
+msgstr ""
+
+#: inc/plugins/importer/importer-api.php:199
+#, php-format
+msgid "Demo data directory does not exist (%s)."
+msgstr ""
+
+#: inc/plugins/importer/molla-parsers.php:46 inc/plugins/importer/molla-parsers.php:96
+#: inc/plugins/importer/molla-parsers.php:104 inc/plugins/importer/parsers.php:45
+#: inc/plugins/importer/parsers.php:93 inc/plugins/importer/parsers.php:101
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: inc/plugins/importer/molla-parsers.php:47 inc/plugins/importer/parsers.php:46
+msgid ""
+"Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: inc/plugins/importer/molla-parsers.php:109 inc/plugins/importer/molla-parsers.php:115
+#: inc/plugins/importer/molla-parsers.php:408 inc/plugins/importer/molla-parsers.php:629
+#: inc/plugins/importer/parsers.php:106 inc/plugins/importer/parsers.php:112
+#: inc/plugins/importer/parsers.php:403 inc/plugins/importer/parsers.php:620
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: inc/plugins/importer/molla-parsers.php:568 inc/plugins/importer/parsers.php:561
+msgid "GZ Not Enabled"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:213
+msgid "Imported categories"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:218
+msgid "Imported tags"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:223
+msgid "Imported terms"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:244
+msgid "Importing menus"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:250
+#: inc/plugins/importer/molla-wordpress-importer.php:258
+#: inc/plugins/importer/molla-wordpress-importer.php:263
+msgid "Processing menus"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:270
+msgid "Successfully imported dummy content!"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:317
+#: inc/plugins/importer/molla-wordpress-importer.php:326
+#: inc/plugins/importer/molla-wordpress-importer.php:386
+#: inc/plugins/importer/molla-wordpress-importer.php:390
+#: inc/plugins/importer/molla-wordpress-importer.php:400
+#: inc/plugins/importer/wordpress-importer.php:205
+#: inc/plugins/importer/wordpress-importer.php:214
+#: inc/plugins/importer/wordpress-importer.php:276
+#: inc/plugins/importer/wordpress-importer.php:280
+#: inc/plugins/importer/wordpress-importer.php:290
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:318
+#: inc/plugins/importer/wordpress-importer.php:206
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:392
+#: inc/plugins/importer/wordpress-importer.php:282
+#, php-format
+msgid ""
+"The export file could not be found at %s. It is likely that this was caused by a "
+"permissions problem."
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:408
+#: inc/plugins/importer/wordpress-importer.php:299
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the importer. "
+"Please consider updating."
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:433
+#: inc/plugins/importer/wordpress-importer.php:325
+#, php-format
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:460
+#: inc/plugins/importer/wordpress-importer.php:352
+msgid "Assign Authors"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:461
+#: inc/plugins/importer/wordpress-importer.php:353
+msgid ""
+"To make it easier for you to edit and save the imported content, you may want to "
+"reassign the author of the imported item to an existing user of this site. For "
+"example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:463
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly generated and "
+"the new user's role will be set as %s. Manually changing the new user&#8217;s details "
+"will be necessary."
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:473
+#: inc/plugins/importer/wordpress-importer.php:366
+msgid "Import Attachments"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:476
+#: inc/plugins/importer/wordpress-importer.php:369
+msgid "Download and import file attachments"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:493
+#: inc/plugins/importer/wordpress-importer.php:386
+msgid "Import author:"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:507
+#: inc/plugins/importer/wordpress-importer.php:400
+msgid "or create new user with login name:"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:510
+#: inc/plugins/importer/wordpress-importer.php:403
+msgid "as a new user:"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:518
+#: inc/plugins/importer/wordpress-importer.php:411
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:520
+#: inc/plugins/importer/wordpress-importer.php:413
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:527
+#: inc/plugins/importer/wordpress-importer.php:420
+msgid "- Select -"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:585
+#: inc/plugins/importer/wordpress-importer.php:479
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:668
+#: inc/plugins/importer/wordpress-importer.php:561
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:721
+#: inc/plugins/importer/wordpress-importer.php:613
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:807
+#: inc/plugins/importer/molla-wordpress-importer.php:1147
+#: inc/plugins/importer/wordpress-importer.php:696
+#: inc/plugins/importer/wordpress-importer.php:1034
+#, php-format
+msgid "Failed to import %1$s %2$s"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:912
+#: inc/plugins/importer/wordpress-importer.php:792
+#, php-format
+msgid "Failed to import &#8220;%1$s&#8221;: Invalid post type %2$s"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:1005
+#: inc/plugins/importer/molla-wordpress-importer.php:1106
+#: inc/plugins/importer/wordpress-importer.php:892
+#: inc/plugins/importer/wordpress-importer.php:995
+#, php-format
+msgid "Failed to import %1$s &#8220;%2$s&#8221;"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:1320
+#: inc/plugins/importer/wordpress-importer.php:1207
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:1327
+#: inc/plugins/importer/wordpress-importer.php:1214
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:1411
+#: inc/plugins/importer/wordpress-importer.php:1298
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:1428
+#: inc/plugins/importer/wordpress-importer.php:1315
+msgid "Invalid file type"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:1496
+#: inc/plugins/importer/wordpress-importer.php:1384
+msgid "Remote server did not respond"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:1503
+#: inc/plugins/importer/wordpress-importer.php:1391
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:1521
+#: inc/plugins/importer/wordpress-importer.php:1400
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:1638
+#: inc/plugins/importer/wordpress-importer.php:1507
+msgid "Import WordPress"
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:1645
+#: inc/plugins/importer/wordpress-importer.php:1515
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to ensure "
+"compatibility with newer export files."
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:1660
+#: inc/plugins/importer/wordpress-importer.php:1530
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the "
+"posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: inc/plugins/importer/molla-wordpress-importer.php:1661
+#: inc/plugins/importer/wordpress-importer.php:1531
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:260
+msgid "All done."
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:260
+msgid "Have fun!"
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:261
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:356
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly generated and "
+"the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s "
+"details will be necessary."
+msgstr ""
+
+#: inc/plugins/importer/wordpress-importer.php:842
+#, php-format
+msgid "%1$s &#8220;%2$s&#8221; already exists."
+msgstr ""
+
+#: inc/walker/molla-nav-field.php:52
+msgid "Icon Class (Optional)"
+msgstr ""
+
+#: inc/walker/molla-nav-field.php:59
+msgid "Don't link"
+msgstr ""
+
+#: inc/walker/molla-nav-field.php:65
+msgid "Enable megamenu"
+msgstr ""
+
+#: inc/walker/molla-nav-field.php:70
+msgid "Megamenu width (px)"
+msgstr ""
+
+#: inc/walker/molla-nav-field.php:72
+msgid "Leave it blank to make full width."
+msgstr ""
+
+#: inc/walker/molla-nav-field.php:77
+msgid "Megamenu columns (from 1 to 6)"
+msgstr ""
+
+#: inc/walker/molla-nav-field.php:83
+msgid "Popup position"
+msgstr ""
+
+#: inc/walker/molla-nav-field.php:109
+msgid "Use as grid column"
+msgstr ""
+
+#: inc/walker/molla-nav-field.php:115
+msgid "Set as subtitle"
+msgstr ""
+
+#: inc/walker/molla-nav-field.php:134
+msgid "Block Id or Slug"
+msgstr ""
+
+#: inc/walker/molla-nav-field.php:145 inc/walker/molla-nav-walker.php:209
+msgid "Hot"
+msgstr ""
+
+#: inc/walker/molla-nav-field.php:147 inc/walker/molla-nav-walker.php:211
+msgid "Popular"
+msgstr ""
+
+#: searchform.php:28
+msgid "All Categories"
+msgstr ""
+
+#: template-parts/header/elements/currency_switcher.php:96
+msgid "USD"
+msgstr ""
+
+#: template-parts/header/elements/currency_switcher.php:98
+msgid "Eur"
+msgstr ""
+
+#: template-parts/header/elements/currency_switcher.php:99
+msgid "Usd"
+msgstr ""
+
+#: template-parts/header/elements/custom_menu.php:50
+msgid "Toggle Title"
+msgstr ""
+
+#: template-parts/header/elements/lang_switcher.php:102
+#: template-parts/header/elements/lang_switcher.php:104
+msgid "English"
+msgstr ""
+
+#: template-parts/header/elements/lang_switcher.php:105
+msgid "Chinese"
+msgstr ""
+
+#: template-parts/header/elements/nav-top.php:3
+msgid "Links"
+msgstr ""
+
+#: template-parts/header/elements/shop.php:77
+msgid "Shopping Cart"
+msgstr ""
+
+#: template-parts/header/elements/shop.php:85
+msgid "Woocommerce is not installed."
+msgstr ""
+
+#: template-parts/partials/page-content.php:13 template-parts/posts/single/single.php:68
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/posts/loop/loop-content.php:75
+msgid "All Blog Posts"
+msgstr ""
+
+#: template-parts/posts/loop/loop-content.php:206
+msgid "View more articles"
+msgstr ""
+
+#: template-parts/posts/partials/post-author.php:2
+msgid "View all posts by "
+msgstr ""
+
+#: template-parts/posts/partials/post-cat.php:2
+msgid "in"
+msgstr ""
+
+#: template-parts/posts/partials/post-meta-author.php:2
+msgid "by"
+msgstr ""
+
+#: template-parts/posts/partials/post-meta-comment.php:8
+msgid "0 Comments"
+msgstr ""
+
+#: template-parts/posts/partials/post-meta-comment.php:8
+msgid "1 Comment"
+msgstr ""
+
+#: template-parts/posts/partials/post-meta-comment.php:8
+msgid "% Comments"
+msgstr ""
+
+#: template-parts/posts/partials/post-prev-next.php:3
+msgid "Previous Post"
+msgstr ""
+
+#: template-parts/posts/partials/post-prev-next.php:6
+msgid "Next Post"
+msgstr ""
+
+#: template-parts/posts/partials/post-readmore.php:15
+msgid "Continue Reading"
+msgstr ""
+
+#: template-parts/posts/partials/post-related.php:92
+msgid ", "
+msgstr ""
+
+#: template-parts/posts/partials/post-share.php:3
+msgid "Share this post:"
+msgstr ""
+
+#: template-parts/posts/partials/post-share.php:8
+msgid "Share:"
+msgstr ""
+
+#: template-parts/posts/partials/post-tag.php:3
+msgid "Tags:"
+msgstr ""
+
+#: wcfm/sold-by/wcfmmp-view-sold-by-tab.php:88
+msgid "Store Name:"
+msgstr ""
+
+#: wcfm/sold-by/wcfmmp-view-sold-by-tab.php:96
+msgid "Address:"
+msgstr ""
+
+#: wcfm/sold-by/wcfmmp-view-sold-by-tab.php:105
+msgid "Email:"
+msgstr ""
+
+#: wcfm/sold-by/wcfmmp-view-sold-by-tab.php:114
+msgid "Phone:"
+msgstr ""
+
+#: wcfm/sold-by/wcfmmp-view-sold-by-tab.php:123
+msgid "Visit Store"
+msgstr ""
+
+#: wcfm/store-lists/wcfmmp-view-store-lists-card.php:52
+#: woocommerce/single-product/meta.php:30
+msgid "N/A"
+msgstr ""
+
+#: wcfm/store-lists/wcfmmp-view-store-lists-card.php:120
+msgid "away"
+msgstr ""
+
+#: wcfm/store-lists/wcfmmp-view-store-lists-card.php:131
+msgid "products"
+msgstr ""
+
+#: wcfm/store-lists/wcfmmp-view-store-lists-card.php:152
+msgid "Visit <span>Store</span>"
+msgstr ""
+
+#: wcfm/store-lists/wcfmmp-view-store-lists-sidebar.php:50
+msgid "Search"
+msgstr ""
+
+#: wcfm/store-lists/wcfmmp-view-store-lists-sidebar.php:52
+msgid "Filter by Category"
+msgstr ""
+
+#: wcfm/store-lists/wcfmmp-view-store-lists-sidebar.php:56
+#: wcfm/store-lists/wcfmmp-view-store-lists-sidebar.php:58
+msgid "Filter by Location"
+msgstr ""
+
+#: woocommerce/cart/cart.php:34 woocommerce/cart/cart.php:112
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:79
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:125 woocommerce/cart/mini-cart.php:47
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:148
+msgid "Coupon:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:148
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:148
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:153
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:132
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:55
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/content-product.php:234 woocommerce/content-product.php:240
+msgid "wishlist"
+msgstr ""
+
+#: woocommerce/content-widget-price-filter.php:26
+msgid "Price Range:"
+msgstr ""
+
+#: woocommerce/content-widget-price-filter.php:30
+msgid "Min price"
+msgstr ""
+
+#: woocommerce/content-widget-price-filter.php:31
+msgid "Max price"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:34
+msgid "Shop order"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:28
+msgid "Showing the single result"
+msgstr ""
+
+#: woocommerce/loop/result-count.php:32
+#, php-format
+msgid "Showing <span>all of %d</span> result"
+msgid_plural "Showing <span>all of %d</span> Products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/loop/result-count.php:44
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing <span>%1$d& of %3$d</span> result"
+msgid_plural ""
+"Showing <span class=\"from\">%1$d</span><span>&ndash;</span><span class=\"to\">%2$d</"
+"span><span> of </span><span class=\"total\">%3$d</span> Products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/loop/sale-flash.php:89
+msgid "Out"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:89
+msgid "Out of Stock"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:92
+msgid "Sold Out"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:95
+#, php-format
+msgid "Only %d Left"
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:103
+msgid "Hurry!"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:32
+msgid "Sign In"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:38 woocommerce/myaccount/form-login.php:122
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:53
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:57 woocommerce/myaccount/form-login.php:107
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:66
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:69
+msgid "Log in"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:72
+msgid "Forgot Your Password?"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:93
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:100
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:113
+msgid "A password will be sent to your email address."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:122
+msgid "Sign up"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:125
+#, php-format
+msgid "I agree to the %1$s"
+msgstr ""
+
+#: woocommerce/myaccount/login-social.php:15
+msgid "or sign in with"
+msgstr ""
+
+#: woocommerce/myaccount/login-social.php:20
+msgid "Login With Facebook"
+msgstr ""
+
+#: woocommerce/myaccount/login-social.php:25
+msgid "Login With Google"
+msgstr ""
+
+#: woocommerce/myaccount/login-social.php:30
+msgid "Login With Twitter"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:26 woocommerce/myaccount/my-address.php:35
+msgid "Billing address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:27
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:46
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:67
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:70
+msgid "Add"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:70
+msgid "Edit"
+msgstr ""
+
+#: woocommerce/share.php:95
+msgid "(Now"
+msgstr ""
+
+#: woocommerce/share.php:95
+msgid "copy"
+msgstr ""
+
+#: woocommerce/share.php:95
+msgid "this wishlist link and share it anywhere)"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:34
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:37
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:73
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:73
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:75
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:118
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:122
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:123
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:124
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:125
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:126
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:127
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:128
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:132
+msgid "Your review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:139
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:76
+msgid "Clear"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:118
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/meta.php:30
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:34
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:36
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/product-image.php:162
+msgid "Awaiting product image"
+msgstr ""
+
+#: woocommerce/single-product/related.php:28
+msgid "Related products"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:30
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review-meta.php:39
+msgid "verified owner"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:27
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:99
+msgid "Stock status"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:117
+msgid "Arrange"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:200
+msgid "Out of stock"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:200
+msgid "In Stock"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:209
+#, php-format
+msgid "Added on: %s"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:227
+msgid "Move"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:246
+msgid "Move to another list &rsaquo;"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:253 woocommerce/wishlist-view.php:268
+msgid "Remove this product"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:279
+msgid "No products added to the wishlist"
+msgstr ""

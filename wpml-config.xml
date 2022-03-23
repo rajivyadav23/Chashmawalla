@@ -1,0 +1,37 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_mods_molla">
+            <key name="molla_header_toggle_menu_title" />
+            <key name="molla_header_toggle_menu_link" />
+            <key name="molla_header_layouts_block_element" />
+            <key name="log_in_label" />
+            <key name="register_label" />
+            <key name="log_out_label" />
+            <key name="search_placeholder" />
+            <key name="shop_icon_label_account" />
+            <key name="shop_icon_label_wishlist" />
+            <key name="shop_icon_label_cart" />
+            <key name="error-block-name" />
+            <key name="blog_more_label" />
+            <key name="footer_tooltip_label" />
+            <key name="footer_block_name" />
+            <key name="woo_pre_order_label" />
+            <key name="woo_pre_order_msg_date" />
+            <key name="woo_pre_order_msg_nodate" />
+            <key name="product_deal_label" />
+            <key name="label_sale_format" />
+            <key name="single_product_tab_title" />
+            <key name="single_product_tab_block" />
+        </key>
+    </admin-texts>
+    <custom-fields>
+        <custom-field action="translate">title</custom-field>
+        <custom-field action="translate">subtitle</custom-field>
+        <custom-field action="translate">tab_title_block</custom-field>
+        <custom-field action="translate">tab_content_block</custom-field>
+        <custom-field action="translate">tab_title_1st</custom-field>
+        <custom-field action="translate">tab_content_1st</custom-field>
+        <custom-field action="translate">tab_title_2nd</custom-field>
+        <custom-field action="translate">tab_content_2nd</custom-field>
+    </custom-fields>
+</wpml-config>

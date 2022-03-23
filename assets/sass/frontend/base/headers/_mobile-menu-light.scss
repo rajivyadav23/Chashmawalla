@@ -1,0 +1,88 @@
+/* Mobile Menu Light */
+.mobile-menu-light {
+	background-color: #fff;
+
+	.mobile-menu-close:not(:hover):not(:focus) {
+		color: #666;
+	}
+
+	.social-icon {
+		color: #999;
+		border-color: #999;
+	}
+
+	.mobile-menu {
+		li {
+			a {
+				border-bottom-color: #efefef;
+			}
+
+			a:not(:hover):not(:focus) {
+				color: #666;
+			}
+
+			ul {
+				border-bottom-color: #efefef;
+
+				li a {
+					&:not(:hover):not(:focus) {
+						color: #666;
+					}
+				}
+
+				ul {
+					border-top-color: #efefef;
+				}
+			}
+		}
+	}
+
+	.mmenu-btn:not(:hover):not(:focus) {
+		color: #666;
+	}
+
+	.mobile-search {
+		.form-control {
+			color: #666;
+			background-color: #fff;
+			border-color: #e5e5e5;
+
+			&::placeholder {
+				color: #666;
+			}
+
+			&:focus {
+				color: #666;
+				background-color: #fff;
+			}
+		}
+	}
+
+	.nav.nav-pills-mobile {
+		border-bottom-color: #efefef;
+
+		.nav-item:not(:hover):not(:focus):not(.active) .nav-link {
+			color: #333;
+		}
+	}
+
+	.mobile-cats-menu {
+		li {
+			a {
+				border-bottom-color: #efefef;
+			}
+
+			a:not(:hover):not(:focus) {
+				color: #666;
+
+				&.mobile-cats-lead {
+					color: #333;
+				}
+			}
+		}
+	}
+
+	.nav-link {
+		color: #333;
+	}
+}

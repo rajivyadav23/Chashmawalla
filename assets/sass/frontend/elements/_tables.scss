@@ -1,0 +1,53 @@
+/* Tables */
+table {
+	margin-bottom: 3rem;
+	border-spacing: 0;
+
+	th,
+	thead th,
+	td {
+		border-top: none;
+		border-bottom: 1px solid #ebebeb;
+
+	}
+
+	th,
+	td {
+		padding: 1rem;
+		vertical-align: top;
+	}
+
+
+}
+
+.table,
+.woocommerce table.shop_table.cart {
+	th {
+		font-weight: 400;
+		font-size: 1.4rem;
+		line-height: 1.5;
+		color: $light-text;
+
+		padding: 1.4rem 1rem 1.4rem 0;
+	}
+}
+
+.shop_table:not(.woocommerce-checkout-review-order-table) td.product-name {
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 1.25;
+	letter-spacing: -.01em;
+	color: #333333;
+	margin-bottom: .2rem;
+
+	a {
+		font-size: inherit;
+		color: inherit;
+	}
+}
+
+@include mq('md') {
+	.woocommerce table.shop_table.cart {
+		border: none;
+	}
+}

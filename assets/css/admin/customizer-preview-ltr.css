@@ -1,0 +1,1 @@
+.molla-tooltip{color:#fff;padding:1px 5px;border-radius:3px;font-size:12px;font-weight:300;transition:background-color .3s}.molla-tooltip:before{content:'\f276';margin-right:5px;font-family:"molla"}.molla-tooltip:hover,.molla-tooltip:focus{cursor:pointer}

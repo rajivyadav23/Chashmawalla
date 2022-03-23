@@ -1,0 +1,608 @@
+@charset "UTF-8";
+/*-------------------- Directions --------------------*/
+.dashicons-molla-logo {
+  background: url(../../images/logos.png) no-repeat;
+  background-position: 0 0;
+}
+
+li:hover .dashicons-molla-logo,
+li:focus .dashicons-molla-logo {
+  background-position: 0 -62px;
+}
+
+li.wp-has-current-submenu .dashicons-molla-logo {
+  background-position: 0 -31px;
+}
+
+#wp-admin-bar-molla .ab-item .ab-icon {
+  width: 20px;
+  height: 20px;
+}
+#wp-admin-bar-molla .ab-item .ab-icon:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../../images/logos.png) -8px -1px no-repeat;
+  transition: none;
+}
+#wp-admin-bar-molla:hover .ab-icon:before {
+  background-position: -8px -63px;
+}
+
+.spinner {
+  margin: 2px 10px 0;
+}
+
+.molla-wrap {
+  max-width: none;
+  padding: 0;
+}
+.molla-wrap .molla-admin-panel {
+  font-family: "Poppins";
+}
+.molla-wrap h2 {
+  font-size: 26px;
+  letter-spacing: -0.025em;
+  font-weight: 700;
+  margin: 0;
+  text-align: right;
+}
+.molla-wrap h2 span {
+  font-weight: 400;
+  color: #999;
+}
+.molla-wrap h4 {
+  font-weight: 700;
+  font-size: 16px;
+}
+.molla-wrap h2, .molla-wrap h4 {
+  color: #32373c;
+}
+.molla-wrap .about-text {
+  font-size: 14px;
+}
+.molla-wrap input,
+.molla-wrap select {
+  border: 1px solid #e1e2e8;
+  border-radius: 3px;
+  color: #5b636b;
+  font-size: 12px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+  height: 32px;
+  line-height: 32px;
+  transition: border-color 0.3s;
+}
+.molla-wrap input:focus,
+.molla-wrap select:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #c96;
+}
+.molla-wrap input[type=radio] {
+  border-radius: 50%;
+}
+.molla-wrap input[type=radio],
+.molla-wrap input[type=checkbox] {
+  height: auto;
+  min-height: 1rem;
+  margin: 0 0 0 7px;
+}
+.molla-wrap input[type=radio]:checked:before {
+  background-color: #c96;
+}
+.molla-wrap input[type=radio]:checked,
+.molla-wrap input[type=checkbox]:checked {
+  border-color: #c96;
+}
+.molla-wrap input[type=checkbox] {
+  position: relative;
+}
+.molla-wrap input[type=checkbox]:before {
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 14px;
+  opacity: 0;
+  font-weight: 900;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin: 0;
+  line-height: 22px;
+  color: #c96;
+}
+.molla-wrap input[type=checkbox]:checked:before {
+  opacity: 1;
+}
+.molla-wrap input.button {
+  height: auto;
+}
+.molla-wrap .button {
+  margin-left: 15px;
+}
+.molla-wrap .button:last-child {
+  margin-left: 0;
+}
+.molla-wrap a:hover, .molla-wrap a:focus {
+  box-shadow: none;
+  outline: none;
+}
+.molla-wrap .molla-admin-panel [class*=notice-] {
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 2px;
+  margin-bottom: 15px;
+}
+.molla-wrap .molla-admin-panel [class*=notice-].notice-error {
+  color: #dc3232;
+  background-color: rgba(220, 50, 50, 0.2);
+}
+.molla-wrap .molla-admin-panel [class*=notice-].notice-success {
+  color: #82b440;
+  background-color: rgba(130, 180, 64, 0.2);
+}
+.molla-wrap .molla-admin-panel [class*=notice-].notice-info {
+  color: #4bb0da;
+  background-color: rgba(75, 176, 218, 0.2);
+}
+.molla-wrap .molla-admin-panel [class*=notice-] strong, .molla-wrap .molla-admin-panel [class*=notice-] p {
+  color: inherit;
+}
+.molla-wrap .theme-version {
+  font-size: 11px;
+  line-height: 1;
+  letter-spacing: 0;
+  color: #c96;
+}
+.molla-wrap .step-id {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 20px;
+  color: #ccc;
+  border: 2px solid;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  box-sizing: border-box;
+}
+.molla-wrap .button.button-large {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  line-height: 1.86;
+  border-radius: 4px;
+  text-align: center;
+  min-width: 150px;
+  padding: 10px 20px;
+}
+.molla-wrap .button.button-prev {
+  min-width: 150px;
+  padding: 10px 20px;
+}
+.molla-wrap .button-next:before,
+.molla-wrap .button-prev:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+.molla-wrap .button-prev:after {
+  content: "";
+  margin-left: 10px;
+}
+.molla-wrap .button-next:before {
+  content: "";
+  margin-right: 10px;
+}
+
+.molla-admin-panel {
+  margin: 30px 0 0;
+  background-color: #fff;
+  box-shadow: 0 40px 40px 0 rgba(189, 189, 189, 0.09);
+  font-size: 14px;
+  line-height: 1.5;
+  overflow: hidden;
+  position: relative;
+}
+.molla-admin-panel a {
+  color: #c96;
+  transition: color 0.3s;
+}
+.molla-admin-panel a:hover, .molla-admin-panel a:focus {
+  color: #c08040;
+}
+.molla-admin-panel .about-description,
+.molla-admin-panel .about-text,
+.molla-admin-panel p,
+.molla-admin-panel table {
+  font-size: 14px;
+  letter-spacing: 0;
+}
+.molla-admin-panel .about-description,
+.molla-admin-panel .about-text {
+  margin-top: 0;
+}
+.molla-admin-panel .about-heading {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.molla-admin-panel pre {
+  overflow: auto;
+}
+.molla-admin-panel .info-qt {
+  font-size: 13px;
+  color: #32373c;
+  font-weight: 700;
+}
+.molla-admin-panel .info-qt:after {
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  margin-left: 5px;
+}
+.molla-admin-panel .info-qt.icon-fixed {
+  position: relative;
+}
+.molla-admin-panel .info-qt.icon-fixed:before {
+  position: absolute;
+  right: 0;
+}
+.molla-admin-panel .info-qt.light-info {
+  font-weight: 400;
+  color: #999;
+  margin-bottom: 0;
+}
+.molla-admin-panel .info-qt.light-info:after {
+  font-size: 15px;
+  font-weight: 900;
+  color: #32373c;
+  margin-left: 7px;
+}
+.molla-admin-panel strong {
+  color: #32373c;
+}
+.molla-admin-panel input {
+  max-width: 545px;
+}
+.molla-admin-panel #molla_purchase_code {
+  font-size: 14px;
+  height: 48px;
+  padding: 10px 20px;
+}
+
+.molla-admin-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 27px;
+  background-color: #23282d;
+}
+.molla-admin-panel-header p {
+  margin: 0;
+  font-size: 14px;
+  color: #c5c5c8;
+}
+.molla-admin-panel-header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: #fff;
+  line-height: 1.2;
+}
+.molla-admin-panel-header .logo {
+  width: auto;
+  margin-bottom: 12px;
+}
+.molla-admin-panel-header .panel-header-right {
+  text-align: left;
+}
+
+.molla-admin-panel-menu_list {
+  background-color: #fafafa;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #ededed;
+  margin: 0;
+}
+.molla-admin-panel-menu_list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  padding: 15px 10px;
+  margin: 0;
+  color: #23282d;
+}
+.molla-admin-panel-menu_list li a {
+  display: flex;
+  align-items: center;
+  color: inherit;
+  text-decoration: none;
+}
+.molla-admin-panel-menu_list li a:hover {
+  color: #c96;
+}
+.molla-admin-panel-menu_list .active {
+  background-color: #c96;
+  color: #fff;
+}
+.molla-admin-panel-menu_list .active a:hover,
+.molla-admin-panel-menu_list .active a:focus {
+  color: #fff;
+}
+.molla-admin-panel-menu_list .nav-tab {
+  background-color: transparent;
+  font-size: inherit;
+  border: none;
+  margin: 0;
+}
+
+@media (max-width: 1699px) {
+  .molla-wrap .molla-admin-panel-menu_list li {
+    font-size: 12px;
+  }
+}
+.molla-admin-panel-content {
+  padding: 40px;
+}
+.molla-admin-panel-content .ul-vertical li {
+  padding: 15px 0;
+  margin: 0;
+  border-bottom: 1px solid #eee;
+}
+.molla-admin-panel-content #molla_registration {
+  display: flex;
+  align-items: center;
+}
+.molla-admin-panel-content #molla_registration .dashicons {
+  vertical-align: middle;
+  margin: 0 0 0 10px;
+}
+.molla-admin-panel-content #molla_registration .submit {
+  padding: 0;
+  margin: 0 10px 0 0;
+}
+.molla-admin-panel-content .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-right: -30px;
+}
+.molla-admin-panel-content .row [class*=col-] {
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+.molla-admin-panel-content .col-left {
+  min-width: 200px;
+  flex: 0 0 60%;
+  max-width: 60%;
+  padding-left: 2rem;
+  border-left: 1px dotted #eee;
+}
+.molla-admin-panel-content .col-right {
+  min-width: 200px;
+  flex: 0 0 40%;
+  max-width: 40%;
+}
+.molla-admin-panel-content .button {
+  transition: 0.3s;
+}
+.molla-admin-panel-content .button:hover, .molla-admin-panel-content .button:focus {
+  box-shadow: none;
+  outline: none;
+}
+.molla-admin-panel-content .button-icon-hide:before,
+.molla-admin-panel-content .button-icon-hide:after {
+  content: none;
+}
+.molla-admin-panel-content .button-primary {
+  background-color: #c96;
+  border-color: #c96;
+}
+.molla-admin-panel-content .button-primary:hover, .molla-admin-panel-content .button-primary:focus {
+  background-color: #23282d;
+  border-color: #23282d;
+}
+.molla-admin-panel-content .button-outline {
+  color: #23282d;
+  background-color: transparent;
+  border-color: #c96;
+}
+.molla-admin-panel-content .button-outline:hover, .molla-admin-panel-content .button-outline:focus {
+  color: #23282d;
+  background-color: #eeeef1;
+  border-color: #eeeef1;
+}
+.molla-admin-panel-content .button-danger {
+  color: #fff;
+  background-color: #ea594e;
+  border-color: #ea594e;
+}
+.molla-admin-panel-content .button-danger:hover, .molla-admin-panel-content .button-danger:focus {
+  color: #fff;
+  background-color: #e52f21;
+  border-color: #e52f21;
+}
+.molla-admin-panel-content .system-status .info-qt {
+  margin: 25px 0 0;
+}
+.molla-admin-panel-content .system-status .info-qt + .info {
+  margin-right: 18px;
+}
+.molla-admin-panel-content .system-status .desc {
+  font-size: 12px;
+  color: #32373c;
+  font-weight: 700;
+}
+.molla-admin-panel-content .system-status .status-notice {
+  margin-top: 7px;
+  font-size: 12px;
+  color: #777;
+}
+.molla-admin-panel-content .status:before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 16px;
+}
+.molla-admin-panel-content .status-yes:before {
+  content: "";
+}
+.molla-admin-panel-content .status-no:before {
+  content: "";
+}
+.molla-admin-panel-content .status-info:before {
+  content: "";
+}
+.molla-admin-panel-content .step-id {
+  width: 35px;
+  height: 35px;
+  line-height: 31px;
+  color: #fff;
+  background-color: #c96;
+  border-color: #c96;
+  margin-left: 7px;
+}
+.molla-admin-panel-content .status-no {
+  background-color: #dc3232;
+  border-color: #dc3232;
+}
+.molla-admin-panel-content .status-info {
+  background-color: rgba(75, 176, 218, 0.4);
+  border-color: rgba(75, 176, 218, 0);
+}
+.molla-admin-panel-content .molla-registration-form {
+  background-color: #eeeef1;
+  padding: 30px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 1199px) {
+  .molla-admin-panel-content .col-left,
+.molla-admin-panel-content .col-right {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .molla-admin-panel-content .row .col-left {
+    border: 1px dotted #eee;
+    border-width: 0 0 1px 0;
+    padding-bottom: 10px;
+  }
+
+  .molla-admin-panel-content .col-right {
+    margin-top: 20px;
+  }
+}
+.theme-license-content .about-heading {
+  margin-top: 0;
+}
+
+.theme-browser .theme.add-new-theme {
+  background-color: #fff;
+}
+.theme-browser .theme.add-new-theme span:after {
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 80px;
+  width: 80px;
+  height: 80px;
+  top: 41%;
+  margin-left: -40px;
+  text-indent: 0;
+}
+.theme-browser .theme.add-new-theme a:after {
+  border-width: 1px;
+}
+.theme-browser .theme.add-new-theme .theme-screenshot:after {
+  padding-top: 62%;
+}
+.theme-browser .theme.add-new-theme .theme-name {
+  padding-bottom: 100px;
+}
+
+#poststuff .inside {
+  margin-bottom: 2rem;
+}
+
+#molla-product-360-view .rwmb-media-list {
+  width: calc(100% + 20px);
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-top: 5px;
+}
+
+.rwmb-meta-box .rwmb-media-list:not(:empty) {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rwmb-meta-box .rwmb-edit-media, .rwmb-meta-box .rwmb-remove-media {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+#molla-product-360-view .rwmb-image-item.thumbnail {
+  width: 33.33%;
+}
+
+#molla-product-360-view .rwmb-media-add {
+  margin-top: 15px;
+}
+
+.molla_custom_labels {
+  padding: 5px 162px 5px 20px;
+  margin: 9px 0;
+  font-size: 12px;
+  line-height: 24px;
+}
+.molla_custom_labels h3 {
+  font-weight: 400;
+}
+.molla_custom_labels .wc-metabox h3 .wp-picker-container button,
+.molla_custom_labels h3 label {
+  float: none;
+  margin-bottom: 0;
+}
+.molla_custom_labels .wp-picker-input-wrap label {
+  width: auto;
+  float: none;
+  margin: 0;
+}
+.molla_custom_labels input[type=text].label_text,
+.molla_custom_labels input[type=text].label_image {
+  width: 200px;
+}
+.molla_custom_labels.form-field .wc-metabox h3 > select, .molla_custom_labels.form-field .wc-metabox .text-controls > input {
+  margin: 0 0 0 13px;
+}
+.molla_custom_labels.form-field .wc-metabox h3 .text-controls > label {
+  margin: 0 0 0 6px;
+}
+.molla_custom_labels .wp-picker-container {
+  margin: 0 0 0 7px;
+}
+.molla_custom_labels .wc-metaboxes .wc-metabox:first-child {
+  margin-top: 14px !important;
+}
+.molla_custom_labels div.wc-metaboxes {
+  border: none;
+}
+.molla_custom_labels .text-controls,
+.molla_custom_labels .image-controls {
+  display: inline-block;
+}

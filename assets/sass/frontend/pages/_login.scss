@@ -1,0 +1,328 @@
+/* Login */
+#customer_login {
+	position: relative;
+}
+
+#customer_login .tab-content {
+	padding: 0;
+	border: none;
+	border-top: 1px solid #dadada;
+
+	form {
+		margin: 0;
+		padding: 0;
+
+		> * {
+			padding-#{$left}: 0;
+			padding-#{$right}: 0;
+			margin-bottom: 1.3rem;
+		}
+
+		.form-footer .form-row {
+			margin-#{$right}: 1rem;
+			margin-bottom: 1rem;
+		}
+
+		.lost_password {
+			margin-bottom: 1rem;
+		}
+	}
+}
+
+#customer_login .woocommerce-form-row label {
+	margin-bottom: 1.1rem;
+}
+.dashboard-wrap {
+	margin-top: 3rem;
+	padding-bottom: 4rem;
+	margin-bottom: 1rem;
+}
+.woocommerce-MyAccount-content {
+	p {
+		color: #999;
+	}
+	strong {
+		font-weight: 400;
+		color: #333;
+	}
+}
+.woocommerce-MyAccount-navigation ul {
+	list-style: none;
+	padding: 0;
+}
+.mfp-login-form {
+	&.mfp-ready .mfp-content {
+		opacity: 0;
+	}
+	.mfp-content {
+		max-width: 575px;
+		transform: translateY(-30px);
+	}
+	&.mfp-removing {
+		.mfp-content {
+			transform: translateY(-30px) !important;
+		}
+	}
+}
+.form-box {
+	max-width: 575px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	padding: 2.2rem 4rem 4.4rem;
+	box-shadow: 0 3px 16px rgba(51, 51, 51, .1);
+
+	.socials {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 0 -10px;
+	}
+
+	.social-button {
+		width: 217.5px;
+		margin: 10px;
+		padding: 8.5px;
+		font-size: 14px;
+		line-height: 1.5;
+		font-weight: 300;
+		border: 1px solid #ebebeb;
+		color: #333;
+
+		&:hover,
+		&:focus,
+		&:active {
+			background-color: #f5f6f9;
+			border-color: #ebebeb;
+			color: #333;
+		}
+
+		span {
+			line-height: 1.5;
+			}
+
+		&.facebook i {
+			color: #36c;
+			min-width: 14px;
+		}
+
+		&.google i {
+			color: #c33;
+		}
+
+		&.twitter i {
+			color: #1aa9e1;
+		}
+	}
+	button.button {
+		min-width: 115px;
+		line-height: 1.5;
+		text-transform: uppercase;
+
+		&:after {
+			content: '\f274';
+			font-family: 'molla';
+			margin-#{$left}: 1rem;
+			line-height: 1;
+		}
+
+		&.btn-g {
+			i {
+				color: #cc3333;
+				min-width: 2.6rem;
+			}
+		}
+
+		&.btn-f {
+			i {
+				color: #3366cc;
+			}
+		}
+
+		&:hover,
+		&:focus {
+			background-color: #f5f6f9;
+		}
+	}
+}
+
+.form-box {
+	.nav.nav-pills {
+		color: $dark-text;
+		border-bottom: 1px solid #ebebeb;
+
+		.nav-item {
+			margin-bottom: -2px;
+
+			+ .nav-item {
+				margin-#{$left}: 0;
+			}
+
+			&.active .nav-link {
+				color: inherit;
+			}
+		}
+
+		.nav-link {
+			text-transform: capitalize;
+			font-weight: 400;
+			font-size: 2rem;
+			letter-spacing: -.025em;
+			color: inherit;
+			border-bottom-width: .2rem;
+			padding: .9rem 1rem;
+		}
+	}
+
+	.nav-fill .nav-item {
+		flex: 1;
+	}
+
+	.tab-content .tab-pane {
+		padding: 0;
+	}
+
+	.form-group {
+		margin-bottom: 1.3rem;
+	}
+
+	.tab-content .form-footer {
+		padding-top: .6rem;
+		padding-bottom: 2rem;
+		border-bottom: 1px solid #ebebeb;
+		margin-bottom: 2.3rem;
+		justify-content: space-between;
+
+		input[type='checkbox'] ~ span {
+			margin-top: 0;
+		}
+
+		.form-row {
+			margin-bottom: 0;
+			padding-top: 0;
+		}
+
+		> * {
+			padding: 0;
+		}
+
+		.btn {
+			margin-#{$left}: auto;
+			margin-top: 1rem;
+			order:2;
+			width: 100%;
+		}
+
+		a {
+			color: inherit;
+			border: none;
+		}
+
+		.custom-control {
+			margin: 0;
+		}
+
+		.forgot-link {
+			order: -1;
+			width: 100%;
+			margin-bottom: .6rem;
+		}
+	}
+}
+
+@include mq('xs', 'max') {
+	.form-box {
+		padding-left: 2.5rem;
+		padding-right: 2.5rem;
+	}
+}
+
+.woocommerce-breadcrumb.divider-active + .logged-out {
+	margin-top: -2rem;
+}
+
+.myaccount-content.logged-out {
+	> div {
+		padding-top: 8rem;
+		padding-bottom: 8rem;
+	}
+}
+
+#customer_login {
+	
+	.form-footer .form-row {
+		display: flex;
+		align-items: center;
+	}
+	
+	.woocommerce-form-register .form-footer {
+		.custom-checkbox label {
+			margin: 1rem 0;
+		}
+	}
+
+	.tab-content {
+		padding-top: 2rem;
+	}
+}
+.form-choice {
+	color: $dark-text;
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 1.5;
+	letter-spacing: -.025em;
+
+	p {
+		margin-bottom: 2.7rem;
+	}
+}
+
+.form-choice .col-sm-6:not(:last-child) {
+	margin-bottom: .6rem;
+}
+
+@include mq('sm') {
+	.form-choice .col-sm-6:not(:last-child) {
+		margin-bottom: 0;
+	}
+
+	.form-tab {
+		.form-footer {
+			.btn {
+				width: auto;
+				margin-top: 0;
+			}
+		}
+	}
+}
+
+@include mq('md') {
+	.form-box {
+		padding: 3.7rem 6rem 6.4rem;
+	}
+
+	.myaccount-content.logged-out > div {
+		padding-top: 12rem;
+		padding-bottom: 12rem;
+	}
+	.form-tab .nav.nav-pills .nav-link {
+		font-size: 2.4rem;
+	}
+
+	.form-tab {
+		.form-footer {
+			.btn {
+				margin-#{$left}: 0;
+				margin-#{$right}: 1.6rem;
+				order:-1;
+			}
+
+			.forgot-link {
+				order: 2;
+				width: auto;
+				margin-bottom: 0;
+				margin-#{$left}: auto;
+			}
+		}
+	}
+}

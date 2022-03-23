@@ -1,0 +1,151 @@
+/* Dashboard */
+.woocommerce-MyAccount-navigation {
+	margin-top: -1rem;
+	a {
+		color: $dark-text;
+	}
+	ul li {
+		a {
+			display: block;
+			overflow: hidden;
+			position: relative;
+			font-weight: 300;
+			font-size: 1.4rem;
+			line-height: 1.5;
+			padding: 1.4rem 0;
+			border-bottom: 1px solid #ebebeb;
+
+			&:before {
+				font-family: "molla";
+				content: if-ltr('\f274', '\f273');
+				display: block;
+				font-size: 1.5rem;
+				line-height: 1;
+				position: absolute;
+				top: 50%;
+				#{$left}:-15px;
+				margin-top: -7.5px;
+				transition: .3s;
+				opacity: 0;
+			}
+		}
+
+		&.is-active a {
+			padding-#{$left}: 2rem;
+
+			&:before {
+				#{$left}:0;
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.addresses .woocommerce-Address {
+	margin-bottom: 3rem;
+
+	h3 {
+		font-size: 2rem;
+		letter-spacing: 0;
+		margin-bottom: .5rem;
+	}
+
+	.address-content {
+		border: 1px solid #ebebeb;
+		background-color: #f9f9f9;
+		padding: 4rem 2.8rem 2rem;
+	}
+
+	address {
+		color: #999;
+	}
+
+	.edit:after {
+		content: '\f1c1';
+	}
+	.add:after {
+		content: '\f2c2';
+		position: relative;
+		top: -1px;
+	}
+
+	a:after {
+		font-family: 'molla';
+		margin-#{$left}: .3rem;
+	}
+}
+
+.woocommerce-MyAccount-content {
+	
+	p {
+		line-height: 2.15;
+	}
+
+	.woocommerce-EditAccountForm.edit-account fieldset {
+		legend {
+			display: none;
+		}
+		p:last-of-type {
+			margin-bottom: 2rem;
+		}
+	}
+	.woocommerce-message,
+	.woocommerce-Message {
+		border: none;
+		padding: 0;
+		display: flex;
+		flex-flow: column-reverse;
+		align-items: flex-start;
+
+		color: #999;
+		line-height: 2;
+
+		.button {
+			margin-top: 1rem;
+			float: none;
+		}
+	}
+
+	a.button,
+	button.button {
+		padding: .85rem 1.5rem;
+		text-transform: uppercase;
+		line-height: 1.5;
+
+		&:#{$after} {
+			content: if-ltr('\f274', '\f273');
+			position: relative;
+			top: -1px;
+			font-family: 'molla';
+			margin-#{$left}: 1rem;
+		}
+	}
+}
+
+.woocommerce-address-fields__field-wrapper {
+	margin-bottom: 2rem;
+}
+
+.dashboard-wrap {
+	.woocommerce-error,
+	.woocommerce-info,
+	.woocommerce-message {
+		margin-bottom: 1em;
+		a {
+			order: -1;
+		}
+	}
+}
+
+@include mq('lg') {
+	.dashboard-wrap {
+		.col-lg-9 {
+			flex: 0 0 70%;
+			max-width: 70%;
+		}
+		.col-lg-3 {
+			flex: 0 0 30%;
+			max-width: 30%;
+		}
+	}
+}

@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+/*-------------------- Directions --------------------*/
+$rtl: 1;
+$dir: rtl !default;
+
+@import 'config/directional';
+
+/*-------------------- Main CSS File --------------------*/
+@import 'mixins/clearfix';
+@import 'mixins/breakpoints';
+@import 'mixins/lazy';
+@import 'mixins/buttons';
+
+@import 'config/variables';
+
+@import 'libs/grid';
+@import 'libs/bootstrap';
+
+/*-------------------- General Styles --------------------*/
+@import 'base/base';
+@import 'base/type';
+@import 'base/layout';
+
+/*-------------------- Base Styles --------------------*/
+@import 'base/headers/header';
+@import 'base/headers/menu';
+@import 'base/headers/vertical-menu';
+@import 'base/headers/sticky-header';
+@import 'base/headers/side-header';
+@import 'base/headers/mobile-menu';
+@import 'base/headers/mobile-menu-light';
+@import 'base/sidebar';
+@import 'base/widgets';
+@import 'base/footers/footer';
+
+/*-------------------- Elements Styles --------------------*/
+@import 'elements/page-header';
+@import 'elements/breadcrumb';
+@import 'elements/titles';
+@import 'elements/cards';
+@import 'elements/tabs';
+@import 'elements/buttons';
+@import 'elements/products';
+@import 'elements/banners';
+@import 'elements/product-category';
+@import 'elements/social-icons';
+@import 'elements/testimonials';
+@import 'elements/forms';
+@import 'elements/tooltips';
+@import 'elements/tables';
+@import 'elements/counters';
+@import 'elements/pagination';
+@import 'elements/slider';
+@import 'elements/countdown';
+@import 'elements/member';
+@import 'elements/blog';
+@import 'elements/magnific_popup';
+@import 'elements/icon-boxes';
+@import 'elements/hotspot';
+@import 'elements/progressbar';
+
+/*-------------------- Page Styles --------------------*/
+@import 'pages/home';
+@import 'pages/category';
+@import 'pages/product';
+@import 'pages/single';
+@import 'pages/login';
+@import 'pages/checkout';
+@import 'pages/wishlist';
+@import 'pages/cart';
+@import 'pages/404';
+@import 'pages/dashboard';
+
+/*-------------------- Spacing + Helpers --------------------*/
+@import 'config/helpers';
+@import 'config/spacing';
+
+/*-------------------- Compatibility Styles --------------------*/
+@import 'libs/elementor';
+@import 'libs/gutenberg';
+@import 'libs/woocommerce';

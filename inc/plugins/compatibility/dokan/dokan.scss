@@ -1,0 +1,47 @@
+//Compatibility with Dokan 
+
+@import '../../../../assets/sass/frontend/config/variables';
+@import '../../../../assets/sass/frontend/mixins/breakpoints';
+@import '../../../../assets/sass/frontend/config/directional';
+
+.dokan-store-wrap.layout-left .dokan-store-sidebar {
+    margin: 0;
+}
+
+.dokan-widget-area .products-widget-loop .product-media {
+    margin-#{$right}: 1rem;
+}
+
+.dokan-single-store {
+    .dokan-store-tabs>ul {
+        display: flex;
+        align-items: center;
+        min-height: 56px;
+        border: 1px solid #eee;
+        >li {
+            border-right: 0;
+        }
+    }
+
+    .profile-frame img {
+        vertical-align: middle;
+    }
+}
+
+.sidebar-content .dokan-category-menu {
+    border: 0;
+    .widget-title {
+        padding: 1rem 0;
+        background: transparent;
+        border: 0;
+    }
+}
+.dokan-category-menu .parent-cat-wrap>a {
+    margin: 0 !important;
+}
+
+.dokan-single-seller .dokan-seller-rating {
+    float: left !important;
+    top: 0  !important;
+    left: 0  !important
+}

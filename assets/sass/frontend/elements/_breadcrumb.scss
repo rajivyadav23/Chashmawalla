@@ -1,0 +1,50 @@
+/* Breadcrumb */
+
+.woocommerce .woocommerce-breadcrumb,
+.woocommerce-breadcrumb {
+	margin-bottom: 0;
+
+	a,
+	.breadcrumb-delimiter {
+		color: #999;
+	}
+
+	.breadcrumb-delimiter i {
+		font-size: 0.9em;
+		position: relative;
+		margin: 0 .7rem;
+	}
+
+	.filter-btn {
+		color: #333;
+	}
+}
+
+.breadcrumb {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: 0;
+
+	padding-top: 1.4rem;
+	padding-bottom: 1.4rem;
+}
+
+.woocommerce-breadcrumb {
+	font-weight: 300;
+
+	.filter-btn {
+		margin-#{$right}: 3rem;
+	}
+
+	&.divider-active {
+		margin-bottom: 2rem;
+	}
+}
+
+.breadcrumb-wrap {
+	.sidebar-toggler,
+	.sidebar-toggler + .breadcrumb {
+		display: inline-flex;
+	}
+}

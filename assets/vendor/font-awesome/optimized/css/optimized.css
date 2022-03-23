@@ -1,0 +1,185 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  src: url("../webfonts/fa-optimized.eot?r5llh8");
+  src: url("../webfonts/fa-optimized.eot?r5llh8#iefix") format("embedded-opentype"), url("../webfonts/fa-optimized.ttf?r5llh8") format("truetype"), url("../webfonts/fa-optimized.woff?r5llh8") format("woff"), url("../webfonts/fa-optimized.svg?r5llh8#icomoon") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  src: url("../webfonts/far-optimized.eot?r5llh8");
+  src: url("../webfonts/far-optimized.eot?r5llh8#iefix") format("embedded-opentype"), url("../webfonts/far-optimized.ttf?r5llh8") format("truetype"), url("../webfonts/far-optimized.woff?r5llh8") format("woff"), url("../webfonts/far-optimized.svg?r5llh8#icomoon") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+.fa,
+.far,
+.fas {
+  display: inline-block;
+  font-family: "Font Awesome 5 Free" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-rendering: auto;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa, .fas {
+  font-weight: 900;
+}
+
+.far {
+  font-weight: 400;
+}
+
+.fa-share-square:before {
+  content: "";
+}
+
+.fa-share:before {
+  content: "";
+}
+
+.fa-hand-peace:before {
+  content: "";
+}
+
+.fa-shapes:before {
+  content: "";
+}
+
+.fa-hands-helping:before {
+  content: "";
+}
+
+.fa-hands:before {
+  content: "";
+}
+
+.fa-envelope-open:before {
+  content: "";
+}
+
+.fa-envelope:before {
+  content: "";
+}
+
+.fa-comments:before {
+  content: "";
+}
+
+.fa-bell-slash:before {
+  content: "";
+}
+
+.fa-bell:before {
+  content: "";
+}
+
+.fa-book:before {
+  content: "";
+}
+
+.fa-battery-full:before {
+  content: "";
+}
+
+.fa-battery-empty:before {
+  content: "";
+}
+
+.fa-arrow-circle-right:before {
+  content: "";
+}
+
+.fa-arrow-circle-up:before {
+  content: "";
+}
+
+.fa-arrow-circle-down:before {
+  content: "";
+}
+
+.fa-arrow-circle-left:before {
+  content: "";
+}
+
+.fa-ban:before {
+  content: "";
+}
+
+.fa-upload:before {
+  content: "";
+}
+
+.fa-chevron-right:before {
+  content: "";
+}
+
+.fa-chevron-up:before {
+  content: "";
+}
+
+.fa-chevron-down:before {
+  content: "";
+}
+
+.fa-chevron-left:before {
+  content: "";
+}
+
+.fa-info-circle:before {
+  content: "";
+}
+
+.fa-check-circle:before {
+  content: "";
+}
+
+.fa-check:before {
+  content: "";
+}
+
+.fa-star-half:before {
+  content: "";
+}
+
+.fa-times:before {
+  content: "";
+}
+
+.fa-power-off:before {
+  content: "";
+}
+
+.fa-pen-alt:before {
+  content: "";
+}
+
+.fa-pen:before {
+  content: "";
+}
+
+.fa-star:before {
+  content: "";
+}
+
+.fa-plus:before {
+  content: "";
+}
+
+.fa-info:before {
+  content: "";
+}
+
+.fa-trash:before {
+  content: "";
+}

@@ -1,0 +1,6 @@
+/*-------------------- Directions --------------------*/
+$rtl: 1;
+$dir: rtl !default;
+
+@import '../frontend/config/directional';
+@import 'walker';

@@ -1,0 +1,131 @@
+@include mq('lg') {
+	/* Side Header Base Layout */
+	div.header-side {
+		position: fixed;
+	}
+	.header-side {
+		top: 0;
+		#{$left}: 0;
+		bottom: 0;
+		padding: 6.7rem 0 3px;
+
+		> .container {
+			padding-#{$right}: 0;
+		}
+
+		.inner-wrap {
+			flex-flow: column;
+		}
+
+		> .container,
+		.inner-wrap {
+			height: 100%;
+		}
+
+		.header-col {
+			flex-flow: column;
+			align-items: flex-#{ if('left' == $left, 'start', 'end') };
+			flex: 0 1 auto;
+			margin: 0;
+		}
+
+		.header-col + .header-col {
+			margin-top: auto;
+		}
+
+		/* Dropdown Arrow */
+		.sf-arrows > .menu-item-has-children {
+			> a:after {
+				content: none;
+				#{$right}: 6rem; 
+				color: #333;
+				font-size: 1.5rem;
+			}
+
+			&:hover > a:after {
+				content: '\f274';
+			}
+		}
+
+		/* Side Header Menu - Default */
+		.menu {
+			width: 100%;
+			flex-flow: column;
+			align-items: flex-#{ if('left' == $left, 'start', 'end') };
+
+			ul ul.sub-menu {
+				top: -2rem;
+			}
+
+			> li {
+				width: 100%;
+				margin: 0;
+
+				> .sub-menu {
+					position: fixed;
+					top: 0;
+					bottom: 0;
+					min-height: 100vh;
+					width: 280px;
+					padding: 13rem 0 3rem;
+					padding-#{$left}: 1.5rem;
+				}
+			}
+		}
+	}
+
+	/* Side Header Menu - Expand */
+	.header-side-menu-expand {
+		.menu {
+			> li > ul {
+				overflow-x: hidden;
+				overflow-y: scroll;
+			}
+
+			ul {
+				ul li {
+					padding-right: 0;
+				}
+
+				li > ul {
+					position: static;
+					min-width: auto;
+					height: 0;
+					background: transparent;
+					padding: 0;
+					box-shadow: none;
+				}
+
+				li:hover > ul {
+					margin-top: -4px;
+					height: auto;
+				}
+			}
+
+			ul::-webkit-scrollbar {
+				width: 7px;
+				height: 10px;
+			}
+
+			ul::-webkit-scrollbar-thumb {
+				background: #6c6a6a;
+				border-radius: 10px;
+			}
+
+			ul::-webkit-scrollbar-track {
+				background: #323232;
+				border-radius: 10px;
+				margin: 8px;
+				width : 100%;
+			}
+		}
+
+		.sf-arrows .sf-with-ul .menu-item-has-children> a:after {
+			transition: transform .3s;
+		}
+
+		.sf-arrows .sf-with-ul .menu-item-has-children:hover > a:after {
+			transform: translateY(-50%) rotate(90deg);
+		}
+	}
+}

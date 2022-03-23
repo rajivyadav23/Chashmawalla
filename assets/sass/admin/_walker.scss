@@ -1,0 +1,48 @@
+.walker-megamenu,
+.walker-megamenu-col,
+.walker-megamenu-width,
+.walker-popup-pos {
+	display: none;
+}
+
+.walker-grid-col,
+.walker-subtitle {
+	display: block;
+}
+
+.walker-menuback input {
+	margin-bottom: .5rem;
+}
+
+.menu-item-depth-0 {
+	.walker-megamenu,
+	.walker-megamenu-col,
+	.walker-megamenu-width,
+	.walker-popup-pos {
+		display: block;
+	}
+
+	.walker-grid-col,
+	.walker-subtitle,
+	.walker-block-slug {
+		display: none;
+	}
+}
+
+.menu-save {
+	top: 0;
+	transition: top .3s;
+}
+
+.menu-save.fixed,
+#menu-settings-column.fixed {
+	position: fixed;
+	top: 3rem;
+}
+.menu-save.fixed {
+	#{$right}: 2rem;
+}
+
+.d-none {
+	display: none !important;
+}

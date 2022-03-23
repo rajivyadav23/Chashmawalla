@@ -1,0 +1,68 @@
+/* Page Header */
+.page-header {
+	padding: 5rem 0 5rem;
+	background-color: #ebebeb;
+
+	.page-title {
+		color: $headings-text;
+		font: normal 400 3.2rem/1.1 $font-family;
+		letter-spacing: -.025em;
+		margin-bottom: 0;
+		text-transform: capitalize;
+	}
+
+	.page-subtitle {
+		display: block;
+		font-weight: 400;
+		font-size: 1.6rem;
+		margin: .8rem 0 0;
+	}
+
+	.page-title,
+	.page-subtitle {
+		word-break: break-word;
+	}
+
+	.woocommerce-breadcrumb {
+		margin: 0;
+		border: none;
+		padding-bottom: 0;
+	}
+
+	.parallax-wrap + div {
+		position: relative;
+		z-index: 1;
+	}
+
+	.woocommerce-breadcrumb {
+		background-color: transparent;
+	}
+
+	.breadcrumb {
+		margin-#{$left}: auto;
+		margin-#{$right}: auto;
+	}
+}
+
+@include mq('md') {
+	.page-header {
+		.page-title {
+			font-size: 3.6rem;
+		}
+		.page-subtitle {
+			font-size: 1.8rem;
+		}
+	}
+}
+
+@include mq('lg') {
+	.page-header {
+		.page-title {
+			font-size: 4rem;
+
+		}
+		.page-subtitle {
+			font-size: 2rem;
+		}
+	}
+}
